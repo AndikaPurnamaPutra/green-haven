@@ -213,6 +213,21 @@
   border-radius: 10px !important;
 }
 
+.section-description .accordion-button.collapsed {
+  background-color: #BBD7BE;
+  color: var(--black-color);
+  border-radius: 10px !important;
+}
+
 .section-description .accordion-button::after {
-  background-image: url(../../assets/image/ic-arrowDown.svg);
+  background-image: url(../../assets/image/ic-plus.svg);
+}
+
+.section-description .accordion-button:not(.collapsed)::after {
+  background-image: url(../../assets/image/ic-close.svg);
+}
+
+.section-description .content-right .accordion-button:not(.collapsed)::after {
+  background-image: url(../../assets/image/ic-minus.svg);
+  background-position: center;
 }
