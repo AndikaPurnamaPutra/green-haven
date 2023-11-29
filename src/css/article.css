@@ -1,0 +1,84 @@
+article {
+   max-width: 1134px;
+   margin: 50px auto 100px;
+}
+
+article .custom-col {
+   height: 475px;
+   width: 338px;
+}
+
+article .row {
+   gap: 50px;
+}
+
+/* title  */
+.title-inner p {
+   font-size: 24px;
+}
+
+.title-body h1 {
+   font-size: 48px;
+   font-weight: 600;
+}
+
+.title-body h1 span {
+   color: #0C4B36;
+}
+
+.title .line {
+   background-color: #0C4B36;
+   width: 200px;
+   height: 5px;
+}
+
+/* card */
+.card {
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+}
+
+.card .card-info {
+   color: #0C4B36;
+}
+
+.card-info h4 span {
+   color: #0C4B36;
+   border: solid 1px #0C4B36;
+   font-size: 16px;
+}
+
+.card-info h5{
+   font-size: 16px;
+}
+
+.card .card-title {
+   font-size: 18px;
+   font-weight: 600;
+}
+
+.card .card-text {
+   font-size: 12px;
+}
+
+.card a {
+   font-size: 14px;
+   text-decoration: none;
+   color: black;
+}
+
+.card:hover .card-info h4 span {
+   background-color: #0C4B36;
+   color: white;
+}
+
+.card:hover a, 
+.card:hover .card-title {
+   font-weight: 600;
+   color: #0C4B36;
+}
+
+.card img:hover {
+   transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
