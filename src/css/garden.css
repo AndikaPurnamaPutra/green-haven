@@ -1,0 +1,54 @@
+/* section header */
+section {
+   margin: 170px 0;
+}
+
+section .subtext-text {
+   max-width: 696px;
+}
+
+section .subtext-text-display {
+   font-size: 64px;
+   font-style: normal;
+   font-weight: 700;
+   margin-bottom: 49px;
+}
+
+section .subtext-text-display span {
+   color: #0C4B36;
+}
+
+section .subtext-text-desc {
+   font-size: 20px;
+   margin-bottom: 59px;
+}
+
+section .button-header {
+   padding: 16px 52px;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+
+   border-radius: 8px;
+   background: #0C4B36;
+   color: #FFF;
+}
+
+section .subtext-image {
+   max-width: 360px;
+   max-height: 395px;
+   position: relative;
+}
+
+section .subtext-image img {
+   position: relative;
+}
+
+section .subtext-image .box {
+   position: absolute;
+   width: 344px;
+   height: 235px;
+   background-color: #E9EECF;
+   border-radius: 95px 95px 10px 10px;
+   z-index: -1;
+}
