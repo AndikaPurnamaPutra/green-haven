@@ -1,0 +1,160 @@
+.section-article {
+  display: flex;
+  padding: 50px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  align-self: stretch;
+}
+
+.section-article .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 35px;
+  width: 1000px;
+}
+/* section a */
+
+.section-article .article H1 {
+  color: var(--T1, #000);
+
+  /* H2 */
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-article .article .img-article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* gambar */
+.section-article .article .img-article img {
+  width: 935px;
+  height: 490px;
+
+  border-radius: 10px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat, #d9d9d9;
+}
+
+.section-article .article .img-article .data-article {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  /* P1 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.section-article .article .article-content {
+  color: var(--T1, #000);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 175% */
+}
+
+/* artikel lainnya */
+.section-article .other-article {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+}
+
+.section-article .other-article h6 {
+  color: var(--T1, #000);
+
+  /* H4 */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-article .other-article .card-articles {
+  padding: 30px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+}
+
+.section-article .other-article .card-articles .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-article .other-article .card-articles .card .card-body {
+  align-items: center;
+  gap: 120px;
+}
+
+.section-article .other-article .card-articles .card .card-body .card-title {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* .section-article .other-article .card-articles .card .card-body .detail-card {
+  display: flex;
+  align-items: center;
+  justify
+  gap: 10px;
+} */
+/* .section-article .other-article .card-articles .card img {
+  height: 320px;
+} */
+
+/* .section-article .other-article .card-articles .card .card-body .detail-card .border {
+  padding: 5px;
+
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1000px;
+  border-style: solid;
+} */
+
+/* button */
+/* CSS untuk tombol dengan nama btn-outline-ghaven */
+.btn-outline-ghaven {
+  color: #0c4b36;
+  border-color: #0c4b36;
+}
+
+/* CSS untuk mengubah warna ketika tombol dihover */
+.btn-outline-ghaven:hover {
+  color: #fff;
+  background-color: #0c4b36;
+}
+
+.card-img-top {
+  max-width: 500px;
+
+  position: wrap;
+}
+
+.card {
+  width: 100%;
+  /* Sesuaikan dengan kebutuhan desain Anda */
+  min-height: 350px;
+}
