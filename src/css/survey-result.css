@@ -1,0 +1,37 @@
+.gallery-section .title {
+   margin-top: 80px;
+   max-width: 1120px;
+}
+
+.gallery-section .title h2 {
+  font-weight: 700;
+}
+
+.gallery-section .title p {
+   font-size: 22px;
+}
+
+.gallery-section .plant-list {
+   max-width: 1246px;
+   margin-top: 30px;
+   margin-bottom: 80px;
+}
+
+.plant-list .custom-col {
+   width: 259px;
+   height: 307px;
+}
+
+.gallery-section .card {
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+}
+
+.gallery-section .card .card-title {
+   font-size: 20px;
+}
+
+.gallery-section .card .card-text {
+   font-size: 18px;
+   opacity: 0.8;
+}
