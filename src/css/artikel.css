@@ -147,14 +147,8 @@
   background-color: #0c4b36;
 }
 
-.card-img-top {
-  max-width: 500px;
-
-  position: wrap;
-}
-
 .card {
-  width: 100%;
+  max-width: 100%;
   /* Sesuaikan dengan kebutuhan desain Anda */
   min-height: 350px;
 }

@@ -195,3 +195,72 @@
     font-size: 28px;
 }
 /* End About */
+
+/* Section Plant */
+.section-plants {
+    background-color: rgba(233, 238, 207, 0.3);
+    display: flex;
+    width: 100%;
+    padding: 80px 0px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.section-plants .subtext-text-display,
+.section-plants .subtext-text-desc {
+  color: var(--T1, #000);
+  font-family: Poppins;
+  text-align: center;
+}
+
+.section-plants .subtext-text-display {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-plants .subtext-text-desc {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+.card{
+    border-radius: 10px;
+}
+.custom-btn {
+    background-color: #0C4B36;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+  }
+.custom-btn:hover {
+    background-color: #177755;
+    color: #fff;
+}
+/* End Plant */
+
+/* Article */
+.section-article {
+    display: flex;
+    width: 100%;
+    padding: 80px 0px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.section-article .subtext-text-display{
+    color: var(--T1, #000);
+    font-family: Poppins;
+    display: flex;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.carousel-caption h2 {
+    font-size: 36px;
+    font-weight: 700;
+} 
+.carousel-caption p {
+    font-size: 20px;
+}
+  /* End Article */
