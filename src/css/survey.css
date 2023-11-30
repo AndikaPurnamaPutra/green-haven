@@ -42,6 +42,7 @@
 }
 
 /* survey form */
+<<<<<<< HEAD
 .survey-section .content-right {
    gap: 30px;
 }
@@ -50,6 +51,8 @@
    gap: 30px;
 }
 
+=======
+>>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
 form {
    margin: 30px 100px;
 }
@@ -68,7 +71,10 @@ form .form-select, form input {
    font-size: 12px;
    color: #888888;
    height: 45px;
+<<<<<<< HEAD
    padding: 12px 24px;
+=======
+>>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
 }
 
 .form-control::placeholder {

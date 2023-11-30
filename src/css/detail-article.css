@@ -8,6 +8,7 @@
   align-self: stretch;
 }
 
+<<<<<<< HEAD
 .section-article .content {
   max-width: 1200px;
   gap: 100px;
@@ -15,6 +16,15 @@
 
 .section-article .article {
   gap: 35px;
+=======
+.section-article .article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 35px;
+  width: 1000px;
+>>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
 }
 /* section a */
 
@@ -73,8 +83,13 @@
 /* artikel lainnya */
 .section-article .other-article {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column;
   gap: 30px;
+=======
+  width: 1000px;
+  flex-direction: column;
+>>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
 }
 
 .section-article .other-article h6 {
@@ -89,6 +104,7 @@
 }
 
 .section-article .other-article .card-articles {
+<<<<<<< HEAD
   gap: 30px;
 }
 
@@ -98,15 +114,38 @@
 
 .section-article .other-article .card-articles .card .card-body {
   padding: 15px 21px;
+=======
+  padding: 30px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+}
+
+.section-article .other-article .card-articles .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-article .other-article .card-articles .card .card-body {
+  align-items: center;
+  gap: 120px;
+>>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
 }
 
 .section-article .other-article .card-articles .card .card-body .card-title {
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
+<<<<<<< HEAD
   font-weight: 500;
   line-height: normal;
   margin-bottom: 25px;
+=======
+  font-weight: 700;
+  line-height: normal;
+>>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
 }
 
 /* .section-article .other-article .card-articles .card .card-body .detail-card {
@@ -133,14 +172,18 @@
 .btn-outline-ghaven {
   color: #0c4b36;
   border-color: #0c4b36;
+<<<<<<< HEAD
   color: #0c4b36 !important;
   border: solid 1px #0c4b36;
   font-size: 16px;
   transition: all 0.3s ease;
+=======
+>>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
 }
 
 /* CSS untuk mengubah warna ketika tombol dihover */
 .btn-outline-ghaven:hover {
+<<<<<<< HEAD
   color: #fff !important;
   background-color: #0c4b36;
 }
@@ -149,3 +192,14 @@
   max-width: 100%;
   min-height: 350px;
 } */
+=======
+  color: #fff;
+  background-color: #0c4b36;
+}
+
+.card {
+  max-width: 100%;
+  /* Sesuaikan dengan kebutuhan desain Anda */
+  min-height: 350px;
+}
+>>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
