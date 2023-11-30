@@ -29,9 +29,10 @@
 
 .gallery-section .card .card-title {
    font-size: 20px;
+   color: black;
 }
 
 .gallery-section .card .card-text {
    font-size: 18px;
-   opacity: 0.8;
+   color: rgba(0, 0, 0, 0.8);
 }

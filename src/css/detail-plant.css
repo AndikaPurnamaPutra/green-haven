@@ -1,0 +1,55 @@
+/* section detail  */
+.detail-container {
+   display: flex;
+   flex-direction: row;
+
+   margin-top: 85px;
+   max-width: 1202px;
+   justify-content: space-between;
+}
+
+.detail-container .detail-inner-title h2 {
+   font-size: 48px;
+   font-weight: 600;
+}
+
+.detail-container .detail-inner-title h4 {
+   font-size: 28px;
+   font-weight: 600;
+   color: rgba(0, 0, 0, 0.8);
+   margin-bottom: 30px;
+}
+
+.detail-container .card {
+   width: 560px;
+   height: 308px;
+   border-radius: 10px;
+   padding: 18px;
+}
+
+.detail-container .detail-inner-img {
+   max-width: 557px;
+   max-height: 435px;
+   border-radius: 20px;
+   justify-content: end;
+}
+
+/* deatail desc */
+.detail-desc-container {
+   background-color: rgba(233, 238, 207, 0.3);
+   max-width: 1203px;
+   margin: 85px auto;
+   padding: 45px;
+
+   border-radius: 10px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.detail-desc-container .desc-plant h3 {
+   font-size: 24px;
+   font-weight: 600;
+}
+
+.detail-desc-container .desc-plant p {
+   font-size: 20px;
+}
