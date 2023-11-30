@@ -1,0 +1,151 @@
+.section-article {
+  display: flex;
+  padding: 50px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  align-self: stretch;
+}
+
+.section-article .content {
+  max-width: 1200px;
+  gap: 100px;
+}
+
+.section-article .article {
+  gap: 35px;
+}
+/* section a */
+
+.section-article .article H1 {
+  color: var(--T1, #000);
+
+  /* H2 */
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-article .article .img-article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* gambar */
+.section-article .article .img-article img {
+  width: 935px;
+  height: 490px;
+
+  border-radius: 10px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat, #d9d9d9;
+}
+
+.section-article .article .img-article .data-article {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+
+  color: rgba(0, 0, 0, 0.5);
+
+  /* P1 */
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.section-article .article .article-content {
+  color: var(--T1, #000);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 175% */
+}
+
+/* artikel lainnya */
+.section-article .other-article {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section-article .other-article h6 {
+  color: var(--T1, #000);
+
+  /* H4 */
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-article .other-article .card-articles {
+  gap: 30px;
+}
+
+.section-article .other-article .card-articles .card {
+  width: 340px;
+}
+
+.section-article .other-article .card-articles .card .card-body {
+  padding: 15px 21px;
+}
+
+.section-article .other-article .card-articles .card .card-body .card-title {
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+
+/* .section-article .other-article .card-articles .card .card-body .detail-card {
+  display: flex;
+  align-items: center;
+  justify
+  gap: 10px;
+} */
+/* .section-article .other-article .card-articles .card img {
+  height: 320px;
+} */
+
+/* .section-article .other-article .card-articles .card .card-body .detail-card .border {
+  padding: 5px;
+
+  border-radius: 5px;
+  border-color: black;
+  border-width: 1000px;
+  border-style: solid;
+} */
+
+/* button */
+/* CSS untuk tombol dengan nama btn-outline-ghaven */
+.btn-outline-ghaven {
+  color: #0c4b36;
+  border-color: #0c4b36;
+  color: #0c4b36 !important;
+  border: solid 1px #0c4b36;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* CSS untuk mengubah warna ketika tombol dihover */
+.btn-outline-ghaven:hover {
+  color: #fff !important;
+  background-color: #0c4b36;
+}
+
+/* .card {
+  max-width: 100%;
+  min-height: 350px;
+} */

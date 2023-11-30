@@ -1,0 +1,77 @@
+/* survey section */
+.survey-section .container {
+   width: 100%;
+   background-color: #e9eecf56;
+   height: 100%;
+}
+
+.survey-section .side {
+   width: 421px;
+}
+
+.survey-section .side-innner {
+   height: 523px;
+}
+
+.side .box {
+   border-radius: 100px 10px 100px 10px;
+   background-color: #BBD7BE;
+   height: 262px;
+   width: 421px;
+}
+
+.survey-section .side-text h1{
+   font-size: 32px;
+   font-weight: 700;
+   color: #0C4B36;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.side-text .div-bulat {
+   width: 8px;
+   height: 8px;
+   background-color: #0C4B36;
+   border-radius: 8px;
+}
+
+.side-text .div-kotak {
+   width: 50px;
+   height: 8px;
+   background-color: #0C4B36;
+   border-radius: 8px;
+}
+
+/* survey form */
+.survey-section .content-right {
+   gap: 30px;
+}
+
+.survey-section .content-right .wrap-input {
+   gap: 30px;
+}
+
+form {
+   margin: 30px 100px;
+}
+
+form h1 {
+   font-weight: 600;
+   color: #0C4B36;
+}
+
+form label {
+   font-weight: 600;
+   font-size: 18;
+}
+
+form .form-select, form input {
+   font-size: 12px;
+   color: #888888;
+   height: 45px;
+   padding: 12px 24px;
+}
+
+.form-control::placeholder {
+   font-size: 12px;
+   color: #888888;
+}

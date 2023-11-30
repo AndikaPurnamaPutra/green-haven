@@ -1,0 +1,41 @@
+.gallery-section {
+  padding-block: 100px;
+}
+
+.gallery-section .content {
+  gap: 80px;
+}
+
+.gallery-section .title {
+  max-width: 1120px;
+}
+
+.gallery-section .title h2 {
+  font-weight: 700;
+}
+
+.gallery-section .title p {
+  font-size: 22px;
+}
+
+.gallery-section .plant-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 70px;
+  row-gap: 40px;
+}
+
+.gallery-section .card {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.gallery-section .card .card-title {
+  font-size: 20px;
+  color: black;
+}
+
+.gallery-section .card .card-text {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+}

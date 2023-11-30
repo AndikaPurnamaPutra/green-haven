@@ -1,9 +1,14 @@
 .navbar {
-  padding-block: 24px;
+  padding-block: 0 !important;
   position: sticky;
   top: 0;
   background-color: rgba(233, 238, 207, 0.3);
   z-index: 99;
+}
+
+.navbar .container {
+  padding-block: 24px;
+  position: relative;
 }
 
 .scrolled {
@@ -26,9 +31,34 @@
   flex-grow: 0;
 }
 
-.navbar .navbar-collapse.show {
-  margin-top: 40px;
-  transition: all 300ms ease;
+@media (max-width: 768px) {
+  .navbar .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--white-color);
+    height: 0;
+    transition: all 400ms ease !important;
+    overflow: hidden;
+  }
+  .navbar .navbar-nav {
+    opacity: 0;
+    transition: all 400ms ease-in-out !important;
+    padding-block: 40px;
+  }
+
+  .navbar .navbar-collapse.collapsing {
+    height: 0 !important;
+  }
+
+  .navbar .navbar-collapse.show .navbar-nav {
+    opacity: 1;
+  }
+}
+
+.navbar .navbar-collapse.show  {
+  height: 100vh;
 }
 
 .navbar .navbar-nav {
