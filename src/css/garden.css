@@ -1,5 +1,4 @@
 /* section header */
-<<<<<<< HEAD
 .section-header {
   padding-block: 100px;
 }
@@ -51,65 +50,10 @@
   background-color: #e9eecf;
   border-radius: 95px 95px 10px 10px;
   z-index: -1;
-=======
-section {
-   margin: 170px 0;
-}
-
-section .subtext-text {
-   max-width: 696px;
-}
-
-section .subtext-text-display {
-   font-size: 64px;
-   font-style: normal;
-   font-weight: 700;
-   margin-bottom: 49px;
-}
-
-section .subtext-text-display span {
-   color: #0C4B36;
-}
-
-section .subtext-text-desc {
-   font-size: 20px;
-   margin-bottom: 59px;
-}
-
-section .button-header {
-   padding: 16px 52px;
-   justify-content: center;
-   align-items: center;
-   gap: 10px;
-
-   border-radius: 8px;
-   background: #0C4B36;
-   color: #FFF;
-}
-
-section .subtext-image {
-   max-width: 360px;
-   max-height: 395px;
-   position: relative;
-}
-
-section .subtext-image img {
-   position: relative;
-}
-
-section .subtext-image .box {
-   position: absolute;
-   width: 344px;
-   height: 235px;
-   background-color: #E9EECF;
-   border-radius: 95px 95px 10px 10px;
-   z-index: -1;
->>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
 }
 
 /* gallery */
 .section-gallery {
-<<<<<<< HEAD
   background-color: rgba(233, 238, 207, 0.3);
   display: flex;
   width: 100%;
@@ -126,20 +70,10 @@ section .subtext-image .box {
 .section-gallery .content-top {
   gap: 30px;
   max-width: 1120px;
-=======
-   background-color: rgba(233, 238, 207, 0.3);
-   display: flex;
-   width: 100%;
-   padding: 98px 0px;
-   flex-direction: column;
-   align-items: flex-end;
-   margin-bottom: -1px;
->>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
 }
 
 .section-gallery .subtext-text-display,
 .section-gallery .subtext-text-desc {
-<<<<<<< HEAD
   color: var(--black);
   font-family: var(--font-display);
   text-align: center;
@@ -186,48 +120,3 @@ section .subtext-image .box {
   background-color: #177755;
   color: #fff;
 }
-=======
-   color: var(--T1, #000);
-   font-family: Poppins;
-   text-align: center;
-}
-
-.section-gallery span {
-   color: #0C4B36;
-}
-
-.section-gallery .container {
-   max-width: 1120px;
-}
-
-.section-gallery .subtext-text-display {
-   font-size: 48px;
-   font-weight: 700;
-   line-height: normal;
-   margin-bottom: -1px;
-}
-
-.section-gallery .subtext-text-desc {
-   font-size: 22px;
-   font-weight: 400;
-   line-height: normal;
-   margin-bottom: 40px;
-}
-
-.card {
-   border-radius: 10px;
-   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.custom-btn {
-   background-color: #0C4B36;
-   color: #fff;
-   padding: 12px 20px;
-   border-radius: 8px;
-}
-
-.custom-btn:hover {
-   background-color: #177755;
-   color: #fff;
-}
->>>>>>> 0358297e7c4bfff3653430cdaf3a6d2fccfa0b0c
