@@ -1,4 +1,7 @@
 /* section detail  */
+.navbar {
+   background-color: var(--white-color) !important;
+}
 .detail-container {
    display: flex;
    flex-direction: row;
