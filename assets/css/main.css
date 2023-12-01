@@ -105,7 +105,7 @@ a {
 }
 
 .btn-link:hover, .btn-link:active {
-  color: #0c4b36;
+  color: #0c4b36 !important;
 }
 
 .btn-primary:hover, .btn-primary:active, .btn-secondary:hover, .btn-secondary:active {
