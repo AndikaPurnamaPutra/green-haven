@@ -67,9 +67,7 @@
 }
 
 .anchor-header {
-    width: 572px;
-    height: 59px;
-    align-items: center;
+    gap: 79px;
 }
 
 /* Hero End */
