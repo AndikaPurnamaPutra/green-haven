@@ -92,6 +92,8 @@
 
 .section-team .team-wrap {
   gap: 30px;
+  row-gap: 60px;
+  flex-wrap: wrap;
 }
 
 .section-team .team-wrap > .card {

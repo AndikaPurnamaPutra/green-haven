@@ -62,6 +62,7 @@ article .row {
   border: solid 1px #0c4b36;
   font-size: 16px;
   transition: all 0.3s ease;
+  font-weight: 400;
 }
 
 .card-info h5 {
@@ -93,10 +94,16 @@ article .row {
 .card:hover .card-info h4 span {
   background-color: #0c4b36;
   color: white;
+  font-weight: 500;
 }
 
 .card:hover a,
 .card:hover .card-title {
-  font-weight: 600;
+  font-weight: 500;
   color: #0c4b36;
+}
+
+.card:hover .btn-outline-ghaven {
+  color: #fff !important;
+  background-color: #0c4b36;
 }
