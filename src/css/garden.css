@@ -1,4 +1,7 @@
 /* section header */
+.navbar {
+  background-color: var(--white-color) !important;
+}
 .section-header {
   padding-block: 100px;
 }
@@ -37,15 +40,6 @@
 
 .section-header .subtext-image img {
   position: relative;
-}
-
-.section-header .subtext-image .box {
-  position: absolute;
-  width: 344px;
-  height: 235px;
-  background-color: #e9eecf;
-  border-radius: 95px 95px 10px 10px;
-  z-index: -1;
 }
 
 /* gallery */
