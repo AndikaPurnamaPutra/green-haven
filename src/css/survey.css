@@ -1,8 +1,15 @@
 /* survey section */
+.survey-section {
+   background-color:rgba(233, 238, 207, 0.30) ;  
+}
 .survey-section .container {
-   width: 100%;
-   background-color: #e9eecf56;
-   height: 100%;
+   padding: 0px;
+}
+.survey-section .content-right {
+   background-color: var(--white-color);
+   align-self: stretch;
+   padding: 20px 0px;
+   border-radius: 15px;
 }
 
 .survey-section .side {
@@ -23,22 +30,8 @@
 .survey-section .side-text h1{
    font-size: 32px;
    font-weight: 700;
-   color: #0C4B36;
+   color: var(--primary-color);
    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-.side-text .div-bulat {
-   width: 8px;
-   height: 8px;
-   background-color: #0C4B36;
-   border-radius: 8px;
-}
-
-.side-text .div-kotak {
-   width: 50px;
-   height: 8px;
-   background-color: #0C4B36;
-   border-radius: 8px;
 }
 
 /* survey form */
@@ -50,13 +43,18 @@
    gap: 30px;
 }
 
+.form-select {
+   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
 form {
    margin: 30px 100px;
 }
 
 form h1 {
-   font-weight: 600;
-   color: #0C4B36;
+   font-weight: 700;
+   color: var(--primary-color);
+   font-size: 28px;
 }
 
 form label {

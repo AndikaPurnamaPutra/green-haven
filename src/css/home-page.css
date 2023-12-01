@@ -67,9 +67,11 @@
 }
 
 .anchor-header {
-    width: 572px;
-    height: 59px;
-    align-items: center;
+    gap: 60px;
+}
+
+.anchor-header a:hover {
+    color: var(--primary-color);
 }
 
 /* Hero End */
