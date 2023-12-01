@@ -72,6 +72,8 @@
 
 .anchor-header a:hover {
     color: var(--primary-color);
+    gap: 79px;
+
 }
 
 /* Hero End */
@@ -98,13 +100,13 @@
 }
 
 .section-choose .subtext-card > .card {
-  background-color: var(--white-color);
-  border: none;
-  gap: 24px;
-  padding: 52px 32px;
-  width: 374px;
-  transition: all 300ms ease;
-  cursor: pointer;
+    background-color: var(--white-color);
+    border: none;
+    gap: 24px;
+    padding: 52px 32px;
+    width: 374px;
+    transition: all 300ms ease;
+    cursor: pointer;
     background-color: var(--white-color);
     border: none;
     gap: 24px;
