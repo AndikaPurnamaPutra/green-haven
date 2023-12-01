@@ -65,9 +65,7 @@
 }
 
 .anchor-header {
-  width: 572px;
-  height: 59px;
-  align-items: center;
+  gap: 79px;
 }
 
 /* Hero End */
@@ -100,6 +98,7 @@
   padding: 52px 32px;
   width: 374px;
   transition: all 300ms ease;
+  cursor: pointer;
 }
 
 .section-choose .subtext-card > .card:hover {

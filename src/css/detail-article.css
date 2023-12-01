@@ -98,6 +98,9 @@
 
 .section-article .other-article .card-articles .card .card-body {
   padding: 15px 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .section-article .other-article .card-articles .card .card-body .card-title {
@@ -106,27 +109,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-bottom: 25px;
 }
-
-/* .section-article .other-article .card-articles .card .card-body .detail-card {
-  display: flex;
-  align-items: center;
-  justify
-  gap: 10px;
-} */
-/* .section-article .other-article .card-articles .card img {
-  height: 320px;
-} */
-
-/* .section-article .other-article .card-articles .card .card-body .detail-card .border {
-  padding: 5px;
-
-  border-radius: 5px;
-  border-color: black;
-  border-width: 1000px;
-  border-style: solid;
-} */
 
 /* button */
 /* CSS untuk tombol dengan nama btn-outline-ghaven */

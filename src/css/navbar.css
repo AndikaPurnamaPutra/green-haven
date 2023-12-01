@@ -19,6 +19,11 @@
   max-width: 204px;
 }
 
+.navbar .navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
 .navbar .navbar-toggler:focus {
   box-shadow: none;
 }

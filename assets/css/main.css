@@ -61,7 +61,7 @@ a {
 
 /* Button */
 .btn {
-  color: #fff !important;
+  color: #fff;
   text-align: center;
   font-family: var(--font-display);
   font-size: 18px;
@@ -85,8 +85,28 @@ a {
   border-radius: 8px;
 }
 
+.short {
+  padding: 15px 20px;
+}
+
 .btn-secondary {
   background-color: var(--primary-color);
   padding: 15px 20px;
   border-radius: 8px;
 }
+
+.btn-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black-color);
+  text-decoration: none;
+  gap: 14px;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-secondary:hover, .btn-secondary:active {
+  background-color: transparent !important;
+  outline: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+
