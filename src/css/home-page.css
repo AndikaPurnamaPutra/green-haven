@@ -67,13 +67,9 @@
 }
 
 .anchor-header {
-<<<<<<< HEAD
-  gap: 79px;
-=======
     width: 572px;
     height: 59px;
     align-items: center;
->>>>>>> c5a37498be8b9a0511cb8b3fc65a40aebfb15633
 }
 
 /* Hero End */
@@ -100,7 +96,6 @@
 }
 
 .section-choose .subtext-card > .card {
-<<<<<<< HEAD
   background-color: var(--white-color);
   border: none;
   gap: 24px;
@@ -108,14 +103,12 @@
   width: 374px;
   transition: all 300ms ease;
   cursor: pointer;
-=======
     background-color: var(--white-color);
     border: none;
     gap: 24px;
     padding: 52px 32px;
     width: 374px;
     transition: all 300ms ease;
->>>>>>> c5a37498be8b9a0511cb8b3fc65a40aebfb15633
 }
 
 .section-choose .subtext-card > .card:hover {
