@@ -59,6 +59,19 @@ a {
   color: #fbbc05 !important;
 }
 
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding-inline: 72px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding-inline: 20px;
+  }
+}
+
 /* Button */
 .btn {
   color: #fff;
@@ -72,6 +85,7 @@ a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .btn:focus {

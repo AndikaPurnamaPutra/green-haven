@@ -34,13 +34,32 @@
 
 .section-header .subtext-image {
   max-width: 360px;
-  max-height: 395px;
-  position: relative;
 }
 
-.section-header .subtext-image img {
-  position: relative;
+@media (max-width: 768px) {
+  .section-header .subtext-text {
+    max-width: 100%;
+    gap: 32px;
+  }
+  .section-header .subtext-text-display {
+    font-size: 48px;
+  }
+
+  .section-header .subtext-text-desc {
+    font-size: 16px;
+  }
+
+  .section-header .subtext-image {
+    display: none !important;
+  }
 }
+
+@media (max-width: 576px) {
+  .section-header .subtext-text-display {
+    font-size: 34px;
+  }
+}
+/* header end */
 
 /* gallery */
 .section-gallery {
@@ -77,7 +96,7 @@
 }
 
 .section-gallery .subtext-text-desc {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   line-height: normal;
 }
@@ -88,21 +107,30 @@
 
 .section-gallery .content-bottom .wrap-card {
   gap: 35px;
+  flex-wrap: wrap;
 }
 
-.card {
+.section-gallery .card {
   border-radius: 10px;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.custom-btn {
-  background-color: #0c4b36;
-  color: #fff;
-  padding: 12px 20px;
-  border-radius: 8px;
+@media (max-width: 768px) {
+  .section-gallery .subtext-text-display {
+    font-size: 34px;
+  }
+
+  .section-gallery .subtext-text-desc {
+    font-size: 16px;
+  }
 }
 
-.custom-btn:hover {
-  background-color: #177755;
-  color: #fff;
+@media (max-width: 576px) {
+  .section-gallery .content-top {
+    gap: 16px;
+  }
+  .section-gallery .subtext-text-display {
+    font-size: 30px;
+  }
 }
+/* gallery end */

@@ -7,57 +7,52 @@
   gap: 32px;
 }
 
-article.content-bottom {
+.section-article article.content-bottom {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 60px;
   row-gap: 32px;
 }
 
-article .custom-col {
-  height: 475px;
-  width: 338px;
-}
-
-article .row {
+.section-article article .row {
   gap: 50px;
 }
 
 /* title  */
-.title-inner p {
+.section-article .title-inner p {
   font-size: 24px;
 }
 
-.title-body h1 {
+.section-article .title-body h1 {
   font-size: 48px;
   font-weight: 600;
 }
 
-.title .line {
+.section-article .title .line {
   background-color: #0c4b36;
   width: 200px;
   height: 5px;
 }
 
 /* card */
-.card {
+.section-article .card {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   overflow: hidden;
   transition: all 0.3s ease;
 }
 
-.card .card-img-top {
+.section-article .card .card-img-top {
   transform: scale(1);
   transition: all 0.3s ease;
 }
 
-.card .card-info {
+.section-article .card .card-info {
   color: #0c4b36;
   transition: all 0.3s ease;
 }
 
-.card-info h4 span {
+.section-article .card-info h4 span {
   color: #0c4b36;
   border: solid 1px #0c4b36;
   font-size: 16px;
@@ -65,45 +60,81 @@ article .row {
   font-weight: 400;
 }
 
-.card-info h5 {
+.section-article .card-info h5 {
   font-size: 16px;
   font-weight: 400;
 }
 
-.card .card-title {
+.section-article .card .card-title {
   font-size: 18px;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 
-.card .card-text {
+.section-article .card .card-text {
   font-size: 12px;
 }
 
-.card a {
+.section-article .card a {
   font-size: 14px;
   text-decoration: none;
   color: black;
   transition: all 0.3s ease;
 }
 
-.card:hover .card-img-top {
+.section-article .card:hover .card-img-top {
   transform: scale(1.1);
 }
 
-.card:hover .card-info h4 span {
+.section-article .card:hover .card-info h4 span {
   background-color: #0c4b36;
   color: white;
   font-weight: 500;
 }
 
-.card:hover a,
-.card:hover .card-title {
+.section-article .card:hover a,
+.section-article .card:hover .card-title {
   font-weight: 500;
   color: #0c4b36;
 }
 
-.card:hover .btn-outline-ghaven {
+.section-article .card:hover .btn-outline-ghaven {
   color: #fff !important;
   background-color: #0c4b36;
+}
+
+@media (max-width: 768px) {
+  .section-article .title-inner p {
+    font-size: 20px;
+  }
+
+  .section-article .title-body h1 {
+    font-size: 34px;
+  }
+
+  .section-article .title .line {
+    width: 150px;
+    height: 3px;
+  }
+
+  .section-article article.content-bottom {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .section-article .title-inner p {
+    font-size: 18px;
+  }
+
+  .section-article .title-body h1 {
+    font-size: 28px;
+  }
+
+  .section-article .title .line {
+    width: 100px;
+  }
+  .section-article article.content-bottom {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

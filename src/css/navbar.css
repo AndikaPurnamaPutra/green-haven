@@ -46,6 +46,7 @@
     height: 0;
     transition: all 400ms ease !important;
     overflow: hidden;
+    padding-inline: 72px;
   }
   .navbar .navbar-nav {
     opacity: 0;
@@ -60,10 +61,15 @@
   .navbar .navbar-collapse.show .navbar-nav {
     opacity: 1;
   }
+  .navbar .navbar-collapse.show {
+    height: 100vh;
+  }
 }
 
-.navbar .navbar-collapse.show  {
-  height: 100vh;
+@media (max-width: 576px) {
+  .navbar .navbar-collapse {
+    padding-inline: 20px;
+  }
 }
 
 .navbar .navbar-nav {

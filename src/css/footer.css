@@ -8,10 +8,10 @@
 .footer .content {
   display: flex;
   flex-direction: column;
-  gap: 110px;
+  gap: 60px;
 }
 
-.footer .content-top-left .img-logo {
+.footer .content-top-left .logo {
   max-width: 280px;
 }
 
@@ -22,6 +22,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  max-width: 393px;
+  text-align: justify;
 }
 
 .footer .content-top-right .subtext-menu {
@@ -63,4 +65,35 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .footer .content-top {
+    gap: 32px;
+  }
+
+  .footer .content-top-left .logo {
+    max-width: 200px;
+  }
+
+  .footer .content-top-left .subtext-text-desc {
+    font-size: 16px;
+  }
+
+  .footer .content-top-right {
+    gap: 32px;
+  }
+
+  .footer .content-top-right .subtext-menu-subtitle {
+    font-size: 20px;
+  }
+
+  .footer .content-top-right .nav-link,
+  .footer .content-bottom .copyright {
+    font-size: 16px;
+  }
 }

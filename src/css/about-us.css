@@ -29,6 +29,26 @@
   line-height: 35px; /* 175% */
 }
 
+@media (max-width: 768px) {
+  .section-header .subtext-text .subtext-text-display {
+    font-size: 48px;
+  }
+
+  .section-header .subtext-text .subtext-text-desc {
+    font-size: 16px;
+  }
+
+  .section-header {
+  padding-block: 70px;
+}
+}
+
+@media (max-width: 576px) {
+  .section-header .subtext-text .subtext-text-display {
+    font-size: 34px;
+  }
+}
+
 .section-choose {
   background-color: rgba(233, 238, 207, 0.3);
   padding-block: 70px;
@@ -59,7 +79,7 @@
   line-height: normal;
 }
 
-.section-choose .content-bottom .subtext-text  .subtext-text-desc {
+.section-choose .content-bottom .subtext-text .subtext-text-desc {
   color: rgba(0, 0, 0, 0.8);
   font-family: var(--font-display);
   font-size: 24px;
@@ -71,6 +91,9 @@
 
 .section-choose .content-bottom .subtext-text > .wrap-text ol {
   padding: 0;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .section-choose .content-bottom .subtext-text > .wrap-text li {
@@ -82,6 +105,27 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .section-choose .subtext-text > .subtext-text-display {
+    font-size: 34px;
+  }
+
+  .section-choose .content-bottom .subtext-text .subtext-text-subtitle {
+    font-size: 32px;
+  }
+
+  .section-choose .content-bottom .subtext-text .subtext-text-desc,
+  .section-choose .content-bottom .subtext-text > .wrap-text li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-choose .content-bottom .subtext-text > .wrap-image {
+    display: none;
+  }
 }
 
 /* Section Team */
@@ -181,6 +225,16 @@
   max-width: 40px;
 }
 
+@media (max-width: 768px) {
+  .section-team .card-body .card-title {
+    font-size: 20px;
+  }
+
+  .section-team .card-body .card-text {
+    font-size: 16px;
+  }
+}
+
 /* description */
 .section-description {
   padding-block: 70px;
@@ -222,7 +276,7 @@
 }
 
 .section-description .accordion-button.collapsed {
-  background-color: #BBD7BE;
+  background-color: #bbd7be;
   color: var(--black-color);
   border-radius: 10px !important;
 }
@@ -238,4 +292,23 @@
 .section-description .content-right .accordion-button:not(.collapsed)::after {
   background-image: url(../../assets/image/ic-minus.svg);
   background-position: center;
+}
+
+@media (max-width: 768px) {
+  .section-description .content {
+    gap: 32px;
+  }
+
+  .section-description .content-left,
+  .section-description .content-right {
+    gap: 20px;
+  }
+
+  .section-description .content-left .display {
+    font-size: 34px;
+  }
+
+  .section-description .content-right .display {
+    font-size: 32px;
+  }
 }
