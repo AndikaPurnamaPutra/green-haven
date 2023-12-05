@@ -63,7 +63,7 @@ a {
   max-width: 1440px;
   width: 100%;
   padding-inline: 72px;
-  margin: 0;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
