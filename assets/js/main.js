@@ -7,3 +7,13 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("scrolled");
   }
 });
+
+// AOS
+AOS.init({
+  disable: function () {
+    var maxWidth = 800;
+    return window.innerWidth < maxWidth;
+  },
+  duration: 1200,
+  easing: "ease-in-out",
+});

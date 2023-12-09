@@ -68,7 +68,7 @@ a {
 
 @media (max-width: 768px) {
   .container {
-    padding-inline: 20px;
+    padding-inline: 20px !important;
   }
 }
 
@@ -88,6 +88,12 @@ a {
   text-align: center;
 }
 
+@media (max-width: 576px) {
+  .btn {
+    font-size: 16px;
+  }
+}
+
 .btn:focus {
   outline: none;
   box-shadow: none;
@@ -97,6 +103,12 @@ a {
   background-color: var(--primary-color);
   padding: 16px 54px;
   border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+  .btn-primary {
+    width: 100%;
+  }
 }
 
 .short {
@@ -118,13 +130,16 @@ a {
   gap: 14px;
 }
 
-.btn-link:hover, .btn-link:active {
+.btn-link:hover,
+.btn-link:active {
   color: #0c4b36 !important;
 }
 
-.btn-primary:hover, .btn-primary:active, .btn-secondary:hover, .btn-secondary:active {
+.btn-primary:hover,
+.btn-primary:active,
+.btn-secondary:hover,
+.btn-secondary:active {
   background-color: transparent !important;
   outline: 1px solid var(--primary-color) !important;
   color: var(--primary-color) !important;
 }
-

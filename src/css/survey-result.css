@@ -18,15 +18,30 @@
   font-weight: 700;
 }
 
-.gallery-section .title p {
-  font-size: 22px;
-}
-
 .gallery-section .plant-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 70px;
   row-gap: 40px;
+}
+
+@media (max-width: 1200px) {
+  .gallery-section .plant-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-section .plant-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery-section .plant-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .gallery-section .card {
@@ -39,9 +54,6 @@
 }
 
 .gallery-section .card .card-img-top {
-  width: 259px;
-  height: 187px;
-
   transform: scale(1);
   transition: all 0.3s ease;
 }

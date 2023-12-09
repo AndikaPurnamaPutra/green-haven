@@ -7,7 +7,7 @@
 }
 
 .navbar .container {
-  padding-block: 24px;
+  padding-block: 20px;
   position: relative;
 }
 
@@ -46,7 +46,7 @@
     height: 0;
     transition: all 400ms ease !important;
     overflow: hidden;
-    padding-inline: 72px;
+    padding-inline: 20px;
   }
   .navbar .navbar-nav {
     opacity: 0;

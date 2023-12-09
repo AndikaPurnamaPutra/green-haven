@@ -17,6 +17,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Green Haven</title>
 </head>
 
@@ -46,16 +48,16 @@
     <div class="container">
       <div class="content d-flex flex-column">
         <div class="content-top title text-center">
-          <div class="title-inner">
+          <div class="title-inner" data-aos="fade-up">
             <p>Articles</p>
           </div>
-          <div class="title-body">
+          <div class="title-body" data-aos="fade-up" data-aos-delay="300">
             <h1>What’s <span class="text-primary">Latest Update</span> in Our Work ?</h1>
           </div>
-          <div class="line mx-auto my-4"></div>
+          <div class="line mx-auto my-4" data-aos="fade-up" data-aos-delay="300"></div>
         </div>
 
-        <article class="content-bottom">
+        <article class="content-bottom" data-aos="fade-up" data-aos-delay="600">
           <div class="card border border-0">
             <img src="../../assets/image/img-articles.png" class="card-img-top" />
             <div class="card-body mx-2 my-3">
@@ -200,6 +202,7 @@
   <!-- footer -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="../../assets/js/bootstrap.js"></script>
   <script src="../../assets/js/popper.min.js"></script>
   <script src="../../assets/js/main.js"></script>

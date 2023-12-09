@@ -20,6 +20,8 @@
   <!-- Icon -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -47,7 +49,7 @@
   <section class="section-header">
     <div class="container">
       <div class="subtext d-flex align-items-center justify-content-between">
-        <div class="col-12 col-lg-8 subtext-text d-flex flex-column align-items-start">
+        <div class="col-12 col-lg-8 subtext-text d-flex flex-column align-items-start" data-aos="fade-left">
           <h1 class="subtext-text-display">Ayo mulai <span class="text-primary">menanam</span> bersama kami!</h1>
           <p class="subtext-text-desc">Survei ini dirancang untuk memahami preferensi, kondisi lingkungan, dan
             preferensi pribadi Kamu dalam hal tanaman yang ingin Kamu tanam. Dengan menjawab pertanyaan-pertanyaan
@@ -57,7 +59,7 @@
             Mulai survey
           </a>
         </div>
-        <div class="col-4 subtext-image d-inline-flex">
+        <div class="col-4 subtext-image d-inline-flex" data-aos="fade-right">
           <img src="../../assets/image/img-person-garden.png" alt="" class="img">
         </div>
       </div>
@@ -70,12 +72,12 @@
     <div class="container">
       <div class="content d-flex flex-column justify-content-center alig">
         <div class="content-top d-flex flex-column justify-content-center mx-auto">
-          <h2 class="subtext-text-display">Galeri <span class="text-primary">Tumbuhan</span></h2>
-          <p class="subtext-text-desc">
+          <h2 class="subtext-text-display" data-aos="fade-up">Galeri <span class="text-primary">Tumbuhan</span></h2>
+          <p class="subtext-text-desc" data-aos="fade-up" data-aos-delay="300">
             Di sini, Kamu akan menemukan koleksi dari berbagai macam tanaman yang cocok untuk ditanam di rumah.
           </p>
         </div>
-        <div class="content-bottom d-flex flex-column justify-content-center align-items-center">
+        <div class="content-bottom d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="600">
           <div class="wrap-card d-flex justify-content-center">
             <div class="card">
               <img src="/assets/image/img-plant.png" class="card-img-top" alt="plant" />
@@ -155,6 +157,7 @@
   <!-- footer -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="../../assets/js/bootstrap.js"></script>
   <script src="../../assets/js/popper.min.js"></script>
   <script src="../../assets/js/main.js"></script>
