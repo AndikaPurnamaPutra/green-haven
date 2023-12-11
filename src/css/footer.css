@@ -41,7 +41,7 @@
 .footer .content-top-right .subtext-menu-subtitle {
   color: #fff;
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -50,18 +50,22 @@
 .footer .content-top-right .nav-link {
   color: #fff;
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   padding: 0;
 }
 
+.footer .content-top-right .nav-link:hover {
+  color: var(--primary-color);
+}
+
 .footer .content-bottom .copyright {
   color: #fff;
   text-align: center;
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
