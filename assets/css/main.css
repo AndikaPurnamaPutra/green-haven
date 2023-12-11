@@ -64,6 +64,7 @@ a {
   width: 100%;
   padding-inline: 72px;
   margin: auto;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
