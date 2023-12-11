@@ -102,7 +102,7 @@
 .section-choose .content-bottom .subtext-text .subtext-text-desc {
   color: rgba(0, 0, 0, 0.8);
   font-family: var(--font-display);
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -120,7 +120,7 @@
   color: rgba(0, 0, 0, 0.8);
   text-align: justify;
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
