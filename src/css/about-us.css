@@ -301,13 +301,12 @@
 .section-description {
   padding-block: 70px;
 }
-.section-description .content-left,
-.section-description .content-right {
+.section-description .content {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-.section-description .content-left .display {
+.section-description .content .display {
   color: var(--black-color);
   font-family: var(--font-display);
   font-size: 48px;
@@ -315,7 +314,7 @@
   font-weight: 700;
   line-height: normal;
 }
-.section-description .content-right .display {
+.section-description .content .display {
   color: var(--black-color);
   font-family: var(--font-display);
   font-size: 36px;
@@ -361,16 +360,11 @@
     gap: 32px;
   }
 
-  .section-description .content-left,
-  .section-description .content-right {
+  .section-description .content {
     gap: 20px;
   }
 
-  .section-description .content-left .display {
+  .section-description .content .display {
     font-size: 34px;
-  }
-
-  .section-description .content-right .display {
-    font-size: 32px;
   }
 }
