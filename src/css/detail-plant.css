@@ -103,7 +103,7 @@
 }
 
 .section-detail .detail-desc .desc-plant h3 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .section-detail .detail-desc .desc-plant p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media (max-width: 768px) {
