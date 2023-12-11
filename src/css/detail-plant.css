@@ -107,6 +107,19 @@
   font-weight: 600;
 }
 
+@media (max-width: 768px) {
+  .section-detail .detail-desc .desc-plant h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
 .section-detail .detail-desc .desc-plant p {
   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .section-detail .detail-desc .desc-plant p {
+  font-size: 16px;
+}
 }
