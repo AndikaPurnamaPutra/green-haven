@@ -59,12 +59,15 @@ a {
   color: #fbbc05 !important;
 }
 
+section {
+  overflow: hidden;
+}
+
 .container {
   max-width: 1440px;
   width: 100%;
   padding-inline: 72px;
   margin: auto;
-  overflow: hidden;
 }
 
 @media (max-width: 768px) {
