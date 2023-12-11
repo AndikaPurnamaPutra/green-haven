@@ -19,6 +19,12 @@
   max-width: 204px;
 }
 
+@media (max-width: 576px) {
+  .navbar .navbar-brand {
+    max-width: 142px;
+  }
+}
+
 .navbar .navbar-toggler {
   border: none;
   padding: 0;
