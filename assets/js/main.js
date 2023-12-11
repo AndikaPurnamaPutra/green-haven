@@ -15,8 +15,8 @@ AOS.init({
     return window.innerWidth < maxWidth;
   },
   duration: 1200,
-  easing: "ease-in-out",
   easing: "ease-in-out", // default easing for AOS animations
   once: true, // whether animation should happen only once - while scrolling down
   mirror: true, // whether elements should animate out while scrolling past them
+  anchorPlacement: "top-bottom",
 });
