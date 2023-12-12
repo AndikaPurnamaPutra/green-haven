@@ -51,6 +51,7 @@
 
 .gallery-section .card-img-top {
   border-radius: 5px 5px 0 0;
+  object-fit: cover;
 }
 
 .gallery-section .card .card-img-top {
