@@ -359,9 +359,10 @@
   }
 
   .section-plants .wrapper-card {
-  gap: 24px;
+    gap: 24px;
+  }
 }
-}
+
 @media (max-width: 576px) {
   .section-plants .card {
     width: 100%;
@@ -415,7 +416,8 @@
   }
 
   .section-article .subtext-text-display {
-    font-size: 34px;
+    font-size: 28px;
+    margin-bottom: 16px;
   }
 
   .section-article .carousel-caption h2 {

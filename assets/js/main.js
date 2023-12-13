@@ -8,6 +8,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
+
 // AOS
 AOS.init({
   disable: function () {
