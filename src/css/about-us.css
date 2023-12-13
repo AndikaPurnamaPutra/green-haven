@@ -205,6 +205,7 @@
 
 .section-team .team-wrap > .card .card-image {
   border-radius: 15px;
+  object-fit: cover;
 }
 
 .section-team .card:hover .card-body {
