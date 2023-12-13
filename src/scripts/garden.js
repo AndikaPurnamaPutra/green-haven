@@ -7,13 +7,13 @@ fetch('https://apiplant.abdulfaqih.eu.org/plant')
 
       plants.slice(0, 3).forEach((plant) => {
         const cardHTML = `
-          <div class="card m-0">
-            <img src="${plant.image.small_url}" class="card-img-top" alt="${plant.common_name}" />
+      <div class="card">
+         <img src="${plant.image.small_url}" class="card-img-top" alt="${plant.common_name}" />
             <div class="card-body">
-              <h5 class="card-title">${plant.common_name}</h5>
-              <p class="card-text">${plant.scientific_name}</p>
+               <h5 class="card-title">${plant.common_name}</h5>
+               <p class="card-text">${plant.scientific_name}</p>
             </div>
-          </div>`;
+      </div>`;
         plantListContainer.innerHTML += cardHTML;
       });
     } else {
