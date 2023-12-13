@@ -145,6 +145,11 @@ section {
   color: #0c4b36 !important;
 }
 
+.btn-link:hover svg path,
+.btn-link:active svg path {
+  fill: #0c4b36 !important;
+}
+
 .btn-primary:hover,
 .btn-primary:active,
 .btn-secondary:hover,

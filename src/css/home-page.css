@@ -153,11 +153,14 @@
   background-color: var(--primary-color);
 }
 
-.section-choose .card:hover .card-icon,
+.section-choose .card:hover .card-icon path,
 .section-choose .card:hover .card-title,
 .section-choose .card:hover .card-text {
   color: var(--white-color);
+  fill: var(--white-color);
 }
+
+.section-choose 
 
 .section-choose .card .card-icon {
   font-size: 64px;
