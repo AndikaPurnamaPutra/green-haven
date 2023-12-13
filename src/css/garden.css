@@ -106,8 +106,22 @@
 }
 
 .section-gallery .content-bottom .wrap-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 35px;
-  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .section-gallery .content-bottom .wrap-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .section-gallery .content-bottom .wrap-card {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+    width: 100%;
+  }
 }
 
 .section-gallery .card {
