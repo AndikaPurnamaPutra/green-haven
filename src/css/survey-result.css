@@ -16,6 +16,11 @@
 
 .gallery-section .title h2 {
   font-weight: 700;
+  font-size: 48px;
+}
+
+.gallery-section .title p {
+  font-size: 22px;
 }
 
 .gallery-section .plant-list {
@@ -47,6 +52,7 @@
 .gallery-section .card {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
+  height: 100%;
 }
 
 .gallery-section .card-img-top {
