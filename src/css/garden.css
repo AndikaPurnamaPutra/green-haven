@@ -111,6 +111,12 @@
   gap: 45px;
 }
 
+@media (max-width: 576px) {
+  .section-gallery .content-bottom {
+  gap: 24px;
+}
+}
+
 .section-gallery .content-bottom .wrap-card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
