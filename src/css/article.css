@@ -7,15 +7,17 @@
   gap: 32px;
 }
 
+@media (max-width: 576px) {
+  .section-article .content {
+    gap: 24px;
+  }
+}
+
 .section-article article.content-bottom {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 60px;
   row-gap: 32px;
-}
-
-.section-article article .row {
-  gap: 50px;
 }
 
 /* title  */
