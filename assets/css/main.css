@@ -94,6 +94,12 @@ section {
 
 @media (max-width: 576px) {
   .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .btn {
     font-size: 16px;
   }
 }
