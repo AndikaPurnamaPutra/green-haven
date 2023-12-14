@@ -57,7 +57,7 @@
 }
 
 .footer .content-top-right .nav-link:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .footer .content-bottom .copyright {
