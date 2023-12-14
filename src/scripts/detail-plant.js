@@ -19,6 +19,7 @@ fetch(`https://apiplant.abdulfaqih.eu.org/plant/${plantId}`)
       const { management } = plantDetail;
 
       const { description } = plantDetail;
+      /* eslint-disable camelcase */
       const { manage_type } = plantDetail;
 
       document.getElementById('common-name').innerText = commonName;
