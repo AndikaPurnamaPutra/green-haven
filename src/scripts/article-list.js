@@ -6,7 +6,7 @@ fetch('https://api-article.abdulfaqih.eu.org/articles')
       const articles = data.data.article;
       console.log(articles);
 
-      const articleListContainer = document.getElementById('gallery-article');
+      const articleListContainer = document.getElementById('article-list');
 
       articles.forEach((article) => {
         const cardHTML = `
