@@ -45,7 +45,7 @@ fetch(`https://api-article.abdulfaqih.eu.org/article/${articleId}`)
                 <div class="card">
                   <img src="${article.image}" class="card-img-top" alt="${article.title}" />
                   <div class="card-body">
-                    <h4 class="card-title"><a href="detail-article.html?id=${article._id}">${article.title.slice(0, 60)} ... </a></h4>
+                    <h4 class="card-title"><a href="detail-article.html?id=${article.id}">${article.title.slice(0, 60)} ... </a></h4>
                     <div class="detail-card d-flex justify-content-between align-items-center">
                       <a href="#" class="btn btn-outline-ghaven">${article.tag}</a>
                       <p class="m-0">${new Date(article.date).toLocaleDateString()}</p>
