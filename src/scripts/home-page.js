@@ -9,6 +9,7 @@ fetch('https://apiplant.abdulfaqih.eu.org/plant')
         const cardHTML = `
           <div class="card m-0">
             <img src="${plant.image.small_url}" class="card-img-top" alt="${plant.common_name}" />
+            
             <div class="card-body">
               <h5 class="card-title">${plant.common_name}</h5>
               <p class="card-text">${plant.scientific_name}</p>

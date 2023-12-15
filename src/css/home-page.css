@@ -396,6 +396,14 @@
   font-style: normal;
   font-weight: 700;
   margin-bottom: 30px;
+  justify-content: center;
+}
+
+.section-article .img-fluid {
+  border-radius: 20px;
+  height: 702px;
+  width: 1290px;
+  object-fit: cover;
 }
 
 .section-article .carousel-caption h2 {
