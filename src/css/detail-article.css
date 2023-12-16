@@ -58,6 +58,7 @@
   max-width: 935px;
   width: 100%;
   border-radius: 10px;
+  max-height: 490px;
 }
 
 .section-article .article .img-article .data-article {
