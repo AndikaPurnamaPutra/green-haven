@@ -1,4 +1,5 @@
 /* eslint-disable no-useless-escape */
+
 function getParameterByName(inputName, inputUrl) {
   let name = inputName;
   let url = inputUrl;
@@ -45,6 +46,8 @@ fetch(apiUrl)
       const { plants } = data.data;
 
       if (plants.length > 0) {
+
+        localStorage.setItem('surveyHistory', JSON.stringify(data));
         plants.forEach((plant) => {
           const cardHTML = `
             <a href="./detail-plant.html?id=${plant.id}">
@@ -59,6 +62,7 @@ fetch(apiUrl)
           `;
           plantListContainer.innerHTML += cardHTML;
         });
+
       } else {
         surveyHeader.innerHTML = '<h2>Tidak ada rekomendasi tanaman.</h2>';
         surveyDesc.innerHTML = '<p>Maaf, berdasarkan preferensi Anda belum terdapat di database kami.</p>';

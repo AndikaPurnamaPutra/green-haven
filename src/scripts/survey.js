@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 function submitSurvey(event) {
   event.preventDefault();
+  localStorage.removeItem('surveyHistory');
 
   const place = document.getElementById('place').value || '';
   const sunlight = document.getElementById('sunlight').value || '';
