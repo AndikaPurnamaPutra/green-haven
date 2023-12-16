@@ -401,14 +401,23 @@
 .section-article .img-fluid {
   border-radius: 20px;
   object-fit: cover;
+  width: 1290px;
+  max-height: 600px;
+}
+
+.section-article .carousel-caption {
+  background: linear-gradient(to bottom right, rgba(66, 66, 66, 0.50) 0%, rgba(37, 37, 37, 0.00) 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, rgba(66, 66, 66, 0.50) 0%, rgba(37, 37, 37, 0.00) 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, rgba(66, 66, 66, 0.50) 0%, rgba(37, 37, 37, 0.00) 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, rgba(66, 66, 66, 0.50) 0%, rgba(37, 37, 37, 0.00) 50%) top right / 50% 50% no-repeat;
 }
 
 .section-article .carousel-caption h2 {
   font-size: 36px;
   font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--white-color);
 }
 
 .section-article .carousel-caption p {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 20px;
 }
 

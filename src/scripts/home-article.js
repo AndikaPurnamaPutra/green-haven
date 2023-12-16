@@ -5,21 +5,29 @@ fetch('https://api-article.abdulfaqih.eu.org/articles')
       const articles = data.data.article;
       const articleListContainer = document.getElementById('article-list');
 
-      articles.slice(0, 3).forEach((article) => {
-        const cardHTML = ` 
-        <div class="carousel-item active">
-        <img src="${article.image}" class="d-block mx-auto img-fluid" alt="${article.title}" />
-        <div class="carousel-caption d-none d-md-block">
-          <h2>${article.title}</h2>
-          <p>${article.content.slice(0, 100)} ...</p>
-        </div>
-      </div>
-      `;
+      // Menghapus konten yang sudah ada di dalam kontainer
+      articleListContainer.innerHTML = '';
+
+      articles.slice(0, 3).forEach((article, index) => {
+        const isActiveClass = index === 0 ? 'active' : '';
+
+        const cardHTML = `
+          <div class="carousel-item ${isActiveClass}">
+            <img src="${article.image}" class="d-block mx-auto img-fluid" alt="${article.title}" />
+            <div class="carousel-caption d-none d-md-block">
+              <a href="/src/html/article.html"><h2>${article.title}</h2></a>
+              <p>${article.content.slice(0, 100)} ...</p>
+            </div>
+          </div>
+        `;
 
         articleListContainer.innerHTML += cardHTML;
       });
+
+      // Menginisialisasi carousel setelah menambahkan item
+      $('#article-list').carousel();
     } else {
-      console.error('API request failed with message:', data.message);
+      console.error('Permintaan API gagal dengan pesan:', data.message);
     }
   })
-  .catch((error) => console.error('Error fetching data from API:', error));
+  .catch((error) => console.error('Kesalahan mengambil data dari API:', error));
