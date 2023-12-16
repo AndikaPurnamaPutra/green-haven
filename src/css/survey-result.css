@@ -19,6 +19,27 @@
   font-size: 48px;
 }
 
+@media (max-width: 1200px) {
+  .gallery-section .title h2 {
+    font-weight: 700;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-section .title h2 {
+    font-weight: 700;
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 576px) {
+  .gallery-section .title h2 {
+    font-weight: 700;
+    font-size: 28px;
+  }
+}
+
 .gallery-section .title p {
   font-size: 22px;
 }
@@ -26,8 +47,7 @@
 .gallery-section .plant-list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 70px;
-  row-gap: 40px;
+  gap: 40px;
 }
 
 @media (max-width: 1200px) {
