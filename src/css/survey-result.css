@@ -10,6 +10,12 @@
   gap: 80px;
 }
 
+@media (max-width: 768px) {
+  .gallery-section .content {
+  gap: 40px;
+}
+}
+
 .gallery-section .title {
   max-width: 1120px;
 }
