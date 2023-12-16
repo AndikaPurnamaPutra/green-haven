@@ -1,211 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green Haven</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/image/Logo.svg" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../src/css/navbar.css" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="../../src/css/article.css" />
+    <link rel="stylesheet" href="../../src/css/footer.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Green Haven</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Green Haven</title>
-<link rel="icon" type="image/x-icon" href="../../assets/image/Logo.svg" />
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="../../assets/css/bootstrap.css">
-  <!-- CSS -->
-  <link rel="stylesheet" href="../../src/css/navbar.css" />
-  <link rel="stylesheet" href="../../assets/css/main.css" />
-  <link rel="stylesheet" href="../../src/css/article.css" />
-  <link rel="stylesheet" href="../../src/css/footer.css" />
-  <!-- Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <title>Green Haven</title>
-</head>
-
-<body>
-  <!-- navbar -->
-  <nav id="navbar" class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="../../assets/image/nav-logo.svg" alt="" class="img" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="../../index.html">Beranda</a>
-          <a class="nav-link" href="./garden.html">Tanam</a>
-          <a class="nav-link active" href="./article.html">Artikel</a>
-          <a class="nav-link" href="./about-us.html">Tentang Kami</a>
+  <body>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="../../assets/image/nav-logo.svg" alt="" class="img" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="../../index.html">Beranda</a>
+            <a class="nav-link" href="./garden.html">Tanam</a>
+            <a class="nav-link active" href="./article.html">Artikel</a>
+            <a class="nav-link" href="./about-us.html">Tentang Kami</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-  <!-- navbar end -->
+    </nav>
+    <!-- navbar end -->
 
-  <!-- article -->
-  <section class="section-article">
-    <div class="container">
-      <div class="content d-flex flex-column">
-        <div class="content-top title text-center">
-          <div class="title-inner" data-aos="fade-up">
-            <p>Articles</p>
+    <!-- article -->
+    <section class="section-article">
+      <div class="container">
+        <div class="content d-flex flex-column">
+          <div class="content-top title text-center">
+            <div class="title-inner" data-aos="fade-up">
+              <p>Artikel</p>
+            </div>
+            <div class="title-body" data-aos="fade-up" data-aos-delay="300">
+              <h1>Tren <span class="text-primary">Terkini</span> Urban Farming</h1>
+            </div>
+            <div class="line mx-auto my-4" data-aos="fade-up" data-aos-delay="300"></div>
           </div>
-          <div class="title-body" data-aos="fade-up" data-aos-delay="300">
-            <h1>What’s <span class="text-primary">Latest Update</span> in Our Work ?</h1>
-          </div>
-          <div class="line mx-auto my-4" data-aos="fade-up" data-aos-delay="300"></div>
-        </div>
 
-        <article class="content-bottom" data-aos="fade-up" data-aos-delay="600">
-          <div class="card border border-0">
-            <img src="../../assets/image/img-articles.png" class="card-img-top" />
-            <div class="card-body mx-2 my-3">
-              <div class="card-info d-flex justify-content-between align-items-center mb-2">
-                <h4><span class="badge">Hidroponik</span></h4>
-                <h5>12 Mei 2023</h5>
-              </div>
-              <h5 class="card-title">Penggunaan teknik hidroponik akhir-akhir ini sangat digemari</h5>
-              <p class="card-text overflow-hidden">Lorem ipsum dolor sit amet consectetur. Quisque luctus tortor in
-                amet
-                varius dolor. Ut phasellus blandit aliquet lectus vulputate. Sagittis elementum sed purus.</p>
-              <a href="./detail-article.html" class="d-flex align-items-center justify-content-end">Baca
-                selanjutnya</a>
-            </div>
-          </div>
-          <div class="card border border-0">
-            <img src="../../assets/image/img-articles.png" class="card-img-top" />
-            <div class="card-body mx-2 my-3">
-              <div class="card-info d-flex justify-content-between align-items-center mb-2">
-                <h4><span class="badge">Hidroponik</span></h4>
-                <h5>12 Mei 2023</h5>
-              </div>
-              <h5 class="card-title">Penggunaan teknik hidroponik akhir-akhir ini sangat digemari</h5>
-              <p class="card-text overflow-hidden">Lorem ipsum dolor sit amet consectetur. Quisque luctus tortor in
-                amet
-                varius dolor. Ut phasellus blandit aliquet lectus vulputate. Sagittis elementum sed purus.</p>
-              <a href="./detail-article.html" class="d-flex align-items-center justify-content-end">Baca
-                selanjutnya</a>
-            </div>
-          </div>
-          <div class="card border border-0">
-            <img src="../../assets/image/img-articles.png" class="card-img-top" />
-            <div class="card-body mx-2 my-3">
-              <div class="card-info d-flex justify-content-between align-items-center mb-2">
-                <h4><span class="badge">Hidroponik</span></h4>
-                <h5>12 Mei 2023</h5>
-              </div>
-              <h5 class="card-title">Penggunaan teknik hidroponik akhir-akhir ini sangat digemari</h5>
-              <p class="card-text overflow-hidden">Lorem ipsum dolor sit amet consectetur. Quisque luctus tortor in
-                amet
-                varius dolor. Ut phasellus blandit aliquet lectus vulputate. Sagittis elementum sed purus.</p>
-              <a href="./detail-article.html" class="d-flex align-items-center justify-content-end">Baca
-                selanjutnya</a>
-            </div>
-          </div>
-          <div class="card border border-0">
-            <img src="../../assets/image/img-articles.png" class="card-img-top" />
-            <div class="card-body mx-2 my-3">
-              <div class="card-info d-flex justify-content-between align-items-center mb-2">
-                <h4><span class="badge">Hidroponik</span></h4>
-                <h5>12 Mei 2023</h5>
-              </div>
-              <h5 class="card-title">Penggunaan teknik hidroponik akhir-akhir ini sangat digemari</h5>
-              <p class="card-text overflow-hidden">Lorem ipsum dolor sit amet consectetur. Quisque luctus tortor in
-                amet
-                varius dolor. Ut phasellus blandit aliquet lectus vulputate. Sagittis elementum sed purus.</p>
-              <a href="./detail-article.html" class="d-flex align-items-center justify-content-end">Baca
-                selanjutnya</a>
-            </div>
-          </div>
-          <div class="card border border-0">
-            <img src="../../assets/image/img-articles.png" class="card-img-top" />
-            <div class="card-body mx-2 my-3">
-              <div class="card-info d-flex justify-content-between align-items-center mb-2">
-                <h4><span class="badge">Hidroponik</span></h4>
-                <h5>12 Mei 2023</h5>
-              </div>
-              <h5 class="card-title">Penggunaan teknik hidroponik akhir-akhir ini sangat digemari</h5>
-              <p class="card-text overflow-hidden">Lorem ipsum dolor sit amet consectetur. Quisque luctus tortor in
-                amet
-                varius dolor. Ut phasellus blandit aliquet lectus vulputate. Sagittis elementum sed purus.</p>
-              <a href="./detail-article.html" class="d-flex align-items-center justify-content-end">Baca
-                selanjutnya</a>
-            </div>
-          </div>
-          <div class="card border border-0">
-            <img src="../../assets/image/img-articles.png" class="card-img-top" />
-            <div class="card-body mx-2 my-3">
-              <div class="card-info d-flex justify-content-between align-items-center mb-2">
-                <h4><span class="badge">Hidroponik</span></h4>
-                <h5>12 Mei 2023</h5>
-              </div>
-              <h5 class="card-title">Penggunaan teknik hidroponik akhir-akhir ini sangat digemari</h5>
-              <p class="card-text overflow-hidden">Lorem ipsum dolor sit amet consectetur. Quisque luctus tortor in
-                amet
-                varius dolor. Ut phasellus blandit aliquet lectus vulputate. Sagittis elementum sed purus.</p>
-              <a href="./detail-article.html" class="d-flex align-items-center justify-content-end">Baca
-                selanjutnya</a>
-            </div>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-  <!-- article end -->
-
-  <!-- footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="content">
-        <div class="content-top d-flex justify-content-between flex-column flex-lg-row">
-          <div class="content-top-left subtext col-12 col-lg-4">
-            <div class="subtext-text d-flex flex-column gap-3">
-              <a href="#" class="logo d-inline-flex">
-                <img src="../../assets/image/Foot-Logo.svg" alt="" class="img img-logo" />
-              </a>
-              <p class="subtext-text-desc">Green Haven hadir sebagai solusi inovatif untuk menciptakan ruang hijau,
-                memaksimalkan penggunaan lahan sempit di hunian Anda</p>
-            </div>
-          </div>
-          <div class="content-top-right subtext col-12 col-lg-7 d-flex justify-content-between flex-column flex-lg-row">
-            <div class="subtext-menu">
-              <h5 class="subtext-menu-subtitle">Tentang</h5>
-              <div class="wrap">
-                <a href="#" class="nav-link">Tentang Kami</a>
-                <a href="#" class="nav-link">FAQ</a>
-                <a href="#" class="nav-link">Tim Kami</a>
-              </div>
-            </div>
-            <div class="subtext-menu">
-              <h5 class="subtext-menu-subtitle">Tanam</h5>
-              <div class="wrap">
-                <a href="#" class="nav-link">Survey</a>
-                <a href="#" class="nav-link">Galeri</a>
-              </div>
-            </div>
-            <div class="subtext-menu">
-              <h5 class="subtext-menu-subtitle">Kontak Kami</h5>
-              <div class="wrap">
-                <a href="#" class="nav-link">greenhaven@gmail.com</a>
-                <a href="#" class="nav-link">+6281234567890</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content-bottom text-center">
-          <span class="copyright">Copyright 2023 Green Haven</span>
+          <article id="article-list" class="content-bottom" data-aos="fade-up" data-aos-delay="600">
+            <!-- js article -->
+          </article>
         </div>
       </div>
-    </div>
-  </footer>
-  <!-- footer -->
+    </section>
+    <!-- article end -->
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="../../assets/js/bootstrap.js"></script>
-  <script src="../../assets/js/popper.min.js"></script>
-  <script src="../../assets/js/main.js"></script>
-</body>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="content">
+          <div class="content-top d-flex justify-content-between flex-column flex-lg-row">
+            <div class="content-top-left subtext col-12 col-lg-4">
+              <div class="subtext-text d-flex flex-column gap-3">
+                <a href="#" class="logo d-inline-flex">
+                  <img src="../../assets/image/Foot-Logo.svg" alt="" class="img img-logo" />
+                </a>
+                <p class="subtext-text-desc">Green Haven hadir sebagai solusi inovatif untuk menciptakan ruang hijau, memaksimalkan penggunaan lahan sempit di hunian Anda</p>
+              </div>
+            </div>
+            <div class="content-top-right subtext col-12 col-lg-7 d-flex justify-content-between flex-column flex-lg-row">
+              <div class="subtext-menu">
+                <h5 class="subtext-menu-subtitle">Tentang</h5>
+                <div class="wrap">
+                  <a href="#" class="nav-link">Tentang Kami</a>
+                  <a href="#" class="nav-link">FAQ</a>
+                  <a href="#" class="nav-link">Tim Kami</a>
+                </div>
+              </div>
+              <div class="subtext-menu">
+                <h5 class="subtext-menu-subtitle">Tanam</h5>
+                <div class="wrap">
+                  <a href="#" class="nav-link">Survey</a>
+                  <a href="#" class="nav-link">Galeri</a>
+                </div>
+              </div>
+              <div class="subtext-menu">
+                <h5 class="subtext-menu-subtitle">Kontak Kami</h5>
+                <div class="wrap">
+                  <a href="#" class="nav-link">greenhaven@gmail.com</a>
+                  <a href="#" class="nav-link">+6281234567890</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-bottom text-center">
+            <span class="copyright">Copyright 2023 Green Haven</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
 
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../../assets/js/bootstrap.js"></script>
+    <script src="../../assets/js/popper.min.js"></script>
+    <script src="../../assets/js/main.js"></script>
+    <script src="../scripts/article-list.js"></script>
+  </body>
 </html>

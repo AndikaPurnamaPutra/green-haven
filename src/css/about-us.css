@@ -205,6 +205,7 @@
 
 .section-team .team-wrap > .card .card-image {
   border-radius: 15px;
+  object-fit: cover;
 }
 
 .section-team .card:hover .card-body {
@@ -313,15 +314,9 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-align: center;
 }
-.section-description .content .display {
-  color: var(--black-color);
-  font-family: var(--font-display);
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
+
 .section-description .accordion {
   display: flex;
   flex-direction: column;

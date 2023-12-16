@@ -10,8 +10,9 @@
   <!-- CSS -->
   <link rel="stylesheet" href="../../src/css/navbar.css" />
   <link rel="stylesheet" href="../../assets/css/main.css" />
-  <link rel="stylesheet" href="../../src/css/survey.css" />
+  <link rel="stylesheet" href="../../src/css/survey-result.css" />
   <link rel="stylesheet" href="../../src/css/footer.css" />
+  <link rel="stylesheet" href="../css/gallery.css">
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-link" href="../../index.html">Beranda</a>
-          <a class="nav-link active" href="./garden.html">Tanam</a>
+          <a class="nav-link" href="./garden.html">Tanam</a>
           <a class="nav-link" href="./article.html">Artikel</a>
           <a class="nav-link" href="./about-us.html">Tentang Kami</a>
         </div>
@@ -40,73 +41,22 @@
   </nav>
   <!-- navbar end -->
 
-  <!-- survey form -->
-  <section class="survey-section d-flex">
-    <div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center">
-      <div class="col-12 col-lg-6 content-left d-flex flex-column align-items-center justify-content-center">
-        <div class="side d-flex flex-column justify-content-center">
-          <img class="img" src="../../assets/image/img-person-survey.png" alt="" srcset="">
-          <div class="side-text text-center mt-2">
-            <h1>Let's Garden</h1>
-          </div>
+  <!-- result gallery -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="content d-flex flex-column justify-content-center align-items-center">
+        <div class="title text-center mx-auto">
+          <h2>Galeri <span>Tumbuhan</span></h2>
+          <p class="px-2 my-3">Bertujuan untuk menginspirasi Kamu dalam menjelajahi dunia tanaman. Selamat menikmati  rekomendasi tanaman yang memikat untuk memperindah ruang terbatas Kamu.</p>
         </div>
-      </div>
-      <div class="col-12 col-lg-6 content-right align-items-center justify-content-center mt-5 mb-5">
-        <form  method="GET" class="content-right d-flex flex-column" action="survey.html">
-          <h1 class="text-display">Survei Preferensi Tanaman</h1>
 
-          <div class="wrap-input d-flex flex-column">
-            <div class="item-input">
-              <label class="form-label">Bagaimana potensi lahan yang kamu miliki</label>
-              <select id="place" class="form-select form-select-lg shadow-sm">
-                <option value="Indoor">Indoor</option>
-                <option value="Outdoor">Outdoor</option>
-              </select>
-            </div>
-
-            <div class="item-input">
-              <label for="luas" class="form-label">Berapa luas lahan yang kamu miliki</label>
-              <input type="text" class="form-control shadow-sm"
-                placeholder="Masukkan dalam meter">
-            </div>
-
-            <div class="item-input">
-              <label class="form-label">Bagaimana Pencahayaan lahan dan lokasi</label>
-              <select id="sunlight" class="form-select form-select-lg shadow-sm">
-                <option selected class="custom-option">Tidak Pasti</option>
-                <option value="Teduh">Teduh</option>
-                <option value="Sedang">Sedang</option>
-                <option value="Terik">Terik</option>
-              </select>
-            </div>
-
-            <div class="item-input">
-              <label class="form-label">Seberapa sering kamu dapat menyiram</label>
-              <select id="watering" class="form-select form-select-lg shadow-sm">
-                <option selected class="custom-option">Belum Tahu</option>
-                <option value="Jarang">Jarang</option>
-                <option value="Sedang">Sedang</option>
-                <option value="Sering">Sering</option>
-              </select>
-            </div>
-
-            <div class="item-input">
-              <label class="form-label">Bagaimana preferensi menanam diinginkan</label>
-              <select id="management" class="form-select form-select-lg shadow-sm">
-                <option selected class="custom-option">Belum Terpikirkan</option>
-                <option value="Aquaponik">Aquaponik</option>
-                <option value="Hidroponik">Hidroponik</option>
-                <option value="Vertikal Garden">Vertical Garden</option>
-                <option value="Rooftop Farming">Rooftop Farming</option>
-              </select>
-            </div>
-          </div>
-          <button class="btn btn-secondary" type="submit" onclick="submitSurvey(event)">Cari Tipe Tanam</button>
-        </form>
+        <div id="gallery-plant" class="plant-list col-12">
+         <!-- gallery.js -->
+        </div>
       </div>
     </div>
   </section>
-  <!-- survey form end -->
+  <!-- result gallery end -->
 
   <!-- footer -->
   <footer class="footer">
@@ -159,7 +109,7 @@
   <script src="../../assets/js/bootstrap.js"></script>
   <script src="../../assets/js/popper.min.js"></script>
   <script src="../../assets/js/main.js"></script>
-  <script src="../scripts/survey.js"></script>
+  <script src="../scripts/gallery.js"></script>
 </body>
 
 </html>

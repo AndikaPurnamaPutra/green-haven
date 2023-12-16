@@ -46,56 +46,53 @@
       <div class="wrapper d-flex flex-column-reverse flex-lg-row justify-content-between align-items-end">
         <div class="detail-inner col-12 col-lg-5 col-xl-6">
           <div class="detail-inner-title">
-            <h2>Nama Tumbuhan</h2>
-            <h4>Nama Latin</h4>
+            <h2 id="common-name">Nama Tumbuhan</h2>
+            <h4 id="scientific-name">Nama Latin</h4>
           </div>
           <div class="card">
             <div class="card-body">
               <div class="card-body-text d-flex flex-row p-2">
                 <img src="../../assets/image/ic-house.svg">
-                <p class="my-auto mx-3">Tempat: indoors</p>
+                <p id="place-info" class="my-auto mx-3">Tempat</p>
               </div>
               <div class="card-body-text d-flex flex-row p-2">
                 <img src="../../assets/image/ic-sun.svg">
-                <p class="my-auto mx-3">Sinar Matahari: indoors</p>
+                <p id="sunlight-info" class="my-auto mx-3">Sinar Matahari</p>
               </div>
               <div class="card-body-text d-flex flex-row p-2">
                 <img src="../../assets/image/ic-flush.svg">
-                <p class="my-auto mx-3">Penyiraman: indoors</p>
+                <p id="watering-info" class="my-auto mx-3">Penyiraman</p>
               </div>
               <div class="card-body-text d-flex flex-row p-2">
                 <img src="../../assets/image/ic-plant.svg">
-                <p class="my-auto mx-3">Pertumbuhan: indoors</p>
+                <p id="growth-info" class="my-auto mx-3">Pertumbuhan</p>
               </div>
               <div class="card-body-text d-flex flex-row p-2">
                 <img src="../../assets/image/ic-care.svg">
-                <p class="my-auto mx-3">Perawatan: indoors</p>
+                <p id="care-level-info" class="my-auto mx-3">Perawatan</p>
               </div>
               <div class="card-body-text d-flex flex-row p-2">
                 <img src="../../assets/image/ic-manage.svg">
-                <p class="my-auto mx-3">Tata kelola: indoors</p>
+                <p id="management-info" class="my-auto mx-3">Tata kelola</p>
               </div>
             </div>
           </div>
         </div>
         <div class="detail-inner-img col-12 col-lg-6 d-inline-flex justify-content-end" >
-          <img src="../../assets/image/img-detail-plant.png" alt="" srcset="" class="img">
+          <img id="plant-image" src="../../assets/image/img-detail-plant.png" alt="" srcset="" class="img">
         </div>
       </div>
       <div class="detail-desc">
         <div class="desc-plant">
           <h3>Deskripsi Tanaman</h3>
-          <p>Lorem ipsum dolor sit amet consectetur. Eros sed mauris vulputate mattis et orci. Et accumsan mattis
+          <p id="plant-desc">Lorem ipsum dolor sit amet consectetur. Eros sed mauris vulputate mattis et orci. Et accumsan mattis
             aliquet
             habitasse aenean at eget mollis. Curabitur in sagittis duis aliquam vel eleifend erat diam. Aliquam viverra
             hendrerit in ultrices in laoreet congue et. </p>
         </div>
         <div class="desc-plant mt-4">
           <h3>Tipe Kelola Tanaman</h3>
-          <p>Lorem ipsum dolor sit amet consectetur. Eros sed mauris vulputate mattis et orci. Et accumsan mattis
-            aliquet
-            habitasse aenean at eget mollis. Curabitur in sagittis duis aliquam vel eleifend erat diam. Aliquam viverra
-            hendrerit in ultrices in laoreet congue et. </p>
+          <p id="plant-manage-type"></p>
         </div>
       </div>
     </div>
@@ -153,6 +150,7 @@
   <script src="../../assets/js/bootstrap.js"></script>
   <script src="../../assets/js/popper.min.js"></script>
   <script src="../../assets/js/main.js"></script>
+  <script src="../scripts/detail-plant.js"></script>
 </body>
 
 </html>

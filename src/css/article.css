@@ -47,6 +47,8 @@
 .section-article .card .card-img-top {
   transform: scale(1);
   transition: all 0.3s ease;
+  width: 100%;
+  max-height: 202px;
 }
 
 .section-article .card .card-info {
@@ -103,6 +105,12 @@
 .section-article .card:hover .btn-outline-ghaven {
   color: #fff !important;
   background-color: #0c4b36;
+}
+
+@media (max-width: 1017px) {
+  .section-article .card .card-info {
+    flex-wrap: wrap-reverse;
+  }
 }
 
 @media (max-width: 768px) {
