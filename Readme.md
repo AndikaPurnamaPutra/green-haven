@@ -4,7 +4,7 @@
   
 # Lost & Found
 
-Capstone Project SIB Cycle 4 - Dicoding 2023
+Capstone Project SIB Cycle 5 - Dicoding 2023
 
 ## Features
 
@@ -37,7 +37,7 @@ Interactive | PWA | Multi Platform | Offline Access | Filtering & Searching | Su
 
 ### Team ID : `C23-R4104`
 
-| Tema : `Solusi Utilitas` | Judul Project : `Lost and Found Finder` |
+| Tema : `Solusi Utilitas` | Judul Project : `Green Haven` |
 | ------------------------ | --------------------------------------- |
 
 ### Capstone Team
