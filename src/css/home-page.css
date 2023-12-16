@@ -427,6 +427,12 @@
   border-radius: 50%;
 }
 
+@media (max-width: 1200px) {
+  .section-article .img-fluid{
+    max-height: 500px;
+  }
+}
+
 @media (max-width: 768px) {
   .section-article {
     padding-block: 40px;
@@ -449,6 +455,16 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
+  }
+
+  .section-article .img-fluid{
+    max-height: 350px;
+  }
+}
+
+@media (max-width: 567px) {
+  .section-article .img-fluid{
+    max-height: 220px;
   }
 }
 

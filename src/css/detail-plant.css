@@ -84,6 +84,20 @@
   object-fit: cover;
 }
 
+@media (max-width: 1440px) {
+  .section-detail .card{
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-detail .detail-inner-img img{
+    justify-content: center !important;
+    margin-bottom: 10px;
+    max-width: 100% !important;
+  }
+}
+
 @media (max-width: 768px) {
   .section-detail .detail-inner-img img {
     max-width: 100%;
