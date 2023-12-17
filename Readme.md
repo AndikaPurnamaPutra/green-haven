@@ -1,14 +1,13 @@
 <div align="center">
   
-  <a href="#"><img src="./assets/image/Logo.svg" alt="icon" border="0"></a>
+  <a href="#"><img src="./assets/image/nav-logo.svg" alt="icon" border="0"></a>
   
-# Lost & Found
-
+# GREEN HAVEN
 Capstone Project SIB Cycle 5 - Dicoding 2023
 
 ## Features
 
-Interactive | PWA | Multi Platform | Offline Access | Filtering & Searching | Submission Form
+Education on Urban Planting | Home Preference Survey | User-Friendly and Accessible Website | PWA Progessvie Web App
 
 ## Tech
 
@@ -20,82 +19,86 @@ Interactive | PWA | Multi Platform | Offline Access | Filtering & Searching | Su
 ![badge](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![badge](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ## API
 
-![badge](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
-![Postgre](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Hapi.js](https://img.shields.io/badge/Hapi.js-404D59?style=for-the-badge)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ###
 
-[`Lost-and-Found API`](https://github.com/OmMahen/lost-and-found-api) |
-[`Lost-and-Found Img API`](https://github.com/OmMahen/lost-and-found-image-api)
+[`Plants API`](https://github.com/0xfaqih/plants-api/blob/main/README.md) |
+[`Article API`](https://github.com/0xfaqih/plants-api/blob/article-api/README.md)
 
 | Presentasi                                         | Demo                                       |
 | -------------------------------------------------- | ------------------------------------------ |
-| [Presentation Video](https://youtu.be/SAoMJBDLYxs) | [Demo Video](https://youtu.be/QguTzavEbrw) |
+| [Presentation Video](https://www.youtube.com/watch?v=RG6gJSpuZ7k) | [Demo Video](https://youtu.be/QguTzavEbrw) |
 
-### Team ID : `C23-R4104`
+### Team ID : `C523-PS025`
 
-| Tema : `Solusi Utilitas` | Judul Project : `Green Haven` |
+| Tema : `Sumber Daya Alam, Ekosistem, dan Perubahan Iklim` | Judul Project : `Green Haven` |
 | ------------------------ | --------------------------------------- |
 
 ### Capstone Team
 
-| ID        | NAMA                                                               |
-| --------- | ------------------------------------------------------------------ |
-| F047XB403 | [Barkah Herdyanto Sejati](https://github.com/Menrva-pixel)         |
-| F007XA007 | [Ibnu Hasyim Surianto](https://github.com/IbnuHs)                  |
-| F008XB035 | [Vicky Pratama Setya Mahardika](https://github.com/VickyPratama87) |
-| F009XA009 | [Mahendra Putra Raharja](https://github.com/OmMahen)               |
+| ID        | NAMA                                                                       |
+| --------- | ------------------------------------------------------------------         |
+| F006XB376 | [Afifa Nur Aini](https://github.com/Afifanra)                              |
+| F120XB389 | [Refi Junitasari](https://github.com/refiijs)                              |
+| F356YB379 | [Abdul Faqih](https://github.com/0xfaqih)                                  |
+| F120YB382 | [Andika purnama Putra](https://github.com/AndikaPurnamaPutra)              |
+| S006YB475 | [Muhammad Kafin Jastiadirizal Prasadana](https://github.com/Jastiadirizal) |
 
 ## Executive Summary
 
-Semua orang memiliki barang berharga seperti handphone, laptop, sepeda motor, dompet, dan lain-lain. Hal ini menimbulkan permasalahan yaitu tindak kejahatan pencurian yang mengakibatkan kehilangan barang. Oleh karena itu, kami selaku generasi muda khususnya mahasiswa yang bergerak dibidang teknologi menciptakan ide yaitu _“Lost and Found Finder”_.
+Berkurangnya lahan hijau karena tingginya peningkatan jumlah penduduk dan juga kebutuhan sumber daya alam yang sering digunakan namun tidak diiringi dengan peestarian lahan hijau. Oleh karena itu, diperlukannya upaya dalam meningkatkan pemahaman masyarakat terkait pelestarian hijau secara mandiri. Kami berkeinginan memberikan solusi alternatif dengan memulai dari lingkungan sekitar hunian. Untuk membuat solusi tersebut dapat diakses dengan mudah oleh publik, kami mengemas solusi tersebut dengan bantuan teknologi berupa website informatif yang bernama Green Haven dengan menargetkan masyarakat umum dalam mengelola lingkungan huniannya.
+
 
 ## Project Scope & Deliverables:
 
-Tujuan akhir dari proyek adalah untuk memberikan solusi bagi masyarakat dalam mengatasi masalah kehilangan atau penemuan barang dengan cara memberikan platform online berbasis website yang memungkinkan pengguna untuk melaporkan dan mencari informasi tentang barang yang hilang atau ditemukan secara efektif dan efisien, serta memudahkan proses penemuan barang yang hilang oleh pemiliknya.
+Tujuan akhir dari proyek adalah untuk memberikan solusi bagi masyarakat dalam meningkatkan kesadaran dan mampu melakukan aksi terhadap pelestarian lahan hijau secara mandiri. Dengan adanya green haven maka dapat menjadi sumber informasi lengkap terkait tanaman dan bagiamana cara melestarikan lahan hijau di sekitar hunian kita meskipun memiliki lahan yang terbatas
+
 
 </div>
 
-1. aplikasi online berbasis website yang menampilkan informasi detail seputar barang hilang atau ditemukan.
+1. Website user-friendly dan mudah digunakan dimanapun dan kapanpun menggunakan device apapun yang memuat website tentang pelestarian lahan hijau berdasarkan kondisi hunian pengguna
 2. Fitur pelaporan barang hilang atau ditemukan yang dapat diakses oleh pengguna.
-3. Fitur pencarian untuk memudahkan pengguna dalam mencari barang.
+3. Kelengkapan informasi terkait urban farming atau planting yang sangat membantu menambah wawasan terkait pelestarian lahan hijau
+
+
+Ada 6 tahapan kegitan yang harus dilakukan selama 5 minggu yang dibagia menjadi dua baigan yaitu :
+ 
+- Project Awal (week 1 - week 3), terdapat tahapan planning project dan pengelolaan tugas, desain dan pembuatan mockup, slicing beberapa page
+- Project Akhir(week 3 -week 5), terdapat tahapan menyempurnakan slicing, pembuatan article dan plant api, mengintegrasikan FE dengan BE, Mengimplementasikan CICD Devops
 
 <div align="center">
-  
-Ada 6 tahapan kegiatan yang harus dilakukan dalam waktu tersebut, yaitu tahap perencanaan selama 7 hari, tahap desain selama 5 hari, tahap penulisan kode program selama 20 hari, tahap pengujian selama 4 hari, tahap peluncuran selama 4 hari, dan tahap hasil akhir selama 5 hari. Setiap tahap memiliki target tertentu yang harus dicapai.
 
-| Minggu | Scope        | Kegiatan                                                            |
-| ------ | ------------ | ------------------------------------------------------------------- |
-| 1      | Planning     | Pencarian ide dan pembuatan ide project                             |
-| 2      | Design       | Inisialisasi, mockup, dan evaluasi                                  |
-| 3      | Coding       | Setting GitHub Repository, HomePage, fitur utama dan fitur tambahan |
-| 4      | Testing      | Testing Fungsionalitas, dan Evaluasi                                |
-| 5      | Release      | Deploy dan Evaluasi                                                 |
-| 6      | Final Result | Dokumentasi, Project brieft, Slide presentasi, Video Presentasi     |
+
+| Minggu | Scope             | Kegiatan                                                                |
+| ------ | ------------      | -------------------------------------------------------------------     |
+| 1      | Planning          | Pencarian ide dalam pembuatan ide project &                             |
+| 2      | Design            | Inisialisasi, mockup, dan evaluasi                                      |
+| 3      | Development (FE)  | Implementasi slicing dan juga pengaturan responsifitas                  |
+| 4      | Development (BE)  | Pembuatan API, definisi endpoint, dan mengintegrasikan dengan FE        |
+| 5      | Release (DevOps)          | Build, Testing, Deploy dan Evaluasi                                     |
 
 ## Risk and Issue Management Plan:
 
-Berikut merupakan beberapa faktor yang dapat menggagalkan atau menunda pembuatan proyek website yang akan dibangun dan perencanaan bagaimana mengidentifikasi serta menyelesaikan isu yang mungkin terjadi selama pengerjaan proyek. Proyek ini dibagi menjadi 3 deliverables utama yaitu :
+Berikut merupakan beberapa faktor yang dapat menggagalkan atau menunda pembuatan proyek website yang akan dibangun dan perencanaan bagaimana mengidentifikasi serta menyelesaikan isu yang mungkin terjadi selama pengerjaan proyek, dinatarnya yaitu :
 
-| Kondisi                                    | Penyebab                                                                                                                              | Dampak                                                                                          | Strategi Mitigasi                                                                                                                        |
-| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Ide Project yang diusulkan tidak disetujui | Ide yang diusulkan kurang jelas maksud dan tujuannya serta belum cukup mengatasi permasalahan yang ada di masyarakat.                 | Semua hal-hal yang telah direncanakan dan dipersiapkan harus diperbarui kembali.                | Sebelum mensubmit selalu memastikan bahwa ide yang diusulkan jelas, menarik dan bisa sebagai solusi dari permasalahan di masyarakat.     |
-| Hardware yang mengalami kerusakan          | Perangkat Keras untuk proses pengerjaan seperti laptop / komputer mengalami bootloop, lag dan lain-lain.                              | Pengerjaan project terganggu dan tidak sesuai dengan waktu pengerjaan.                          | Selalu melakukan maintenance terhadap perangkat keras dan selalu mem backup progress melalui github.                                     |
-| Koneksi internet yang buruk                | Lokasi geografis seperti di pegunungan dan pedesaan serta jauh dari perkotaan tentu sulit untuk mendapatkan akses internet yang baik. | Sulit berkomunikasi dengan anggota tim dan sulit untuk menyelesaikan project.                   | Menggunakan provider yang stabil di tempatnya dan mencari alternatif koneksi internet yang lainnya.                                      |
-| Sakit                                      | Sering kelelahan dan tidak menerapkan pola hidup yang sehat.                                                                          | Task yang menjadi tugasnya akan dikerjakan oleh anggota tim yang lainnya.                       | Menerapkan pola hidup sehat dan selalu istirahat yang cukup.                                                                             |
-| Kendala selama proses pengerjaan Website   | Kurangnya skill dari masing-masing SDM dan kurang mencari referensi di berbagai sumber.                                               | Akan stack di satu tahap karena jika belum terselesaikan tidak bisa lanjut ke tahap berikutnya. | Mencari referensi yang mendukung dan sering konsultasi kepada mentor atau senior untuk mendapatkan pencerahan.                           |
-| Bencana Alam                               | Adanya gejala dari alam dan kita tidak dapat menghindarinya.                                                                          | Pengerjaan project tentu akan molor.                                                            | Mengupayakan untuk selalu progress walaupun hanya sedikit.                                                                               |
-| Dana / Biaya                               |                                                                                                                                       | Project yang dihasilkan akan apa adanya karena kurangnya resource yang diperlukan.              | Menggunakan layanan hosting dan tools gratis.                                                                                            |
-| Human error                                | Adanya miss komunikasi dalam anggota tim.                                                                                             | Project yang dikerjakan tidak sesuai dengan rencana dan tidak sesuai dengan timeline.           | Meningkatkan komunikasi antar anggota tim, melakukan daily scrum setiap hari, dan jika terdapat update atau perubahan selalu konfirmasi. |
-| Perubahan Agenda                           | Adanya agenda dadakan yang tidak terjadwalkan di luar agenda project.                                                                 | Keterlambatan dalam menyelesaikan project, perlu menggantinya di lain hari.                     | Segera konfirmasi dengan tim untuk mendiskusikan jadwal terbaru.                                                                         |
-| Ujian                                      | Adanya jadwal ujian dari universitas.                                                                                                 | Menghambat proses pengerjaan project.                                                           | Setelah Ujian selesai segera kembali melanjutkan project.                                                                                |
+| Kondisi                                    | Dampak                                                              | Strategi Mitigasi                                                   |
+| ------------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------- | 
+| Terdapat beberapa perbedaan kepentingan dari tiap anggota pada waktu tertentu dan ada kemungkinan terdapat anggota yang sakit  | Menjadi sebuah ancaman apabila nantinya terjadi masalah internal yang dapat mengakibatkan penghambatan pengerjaan proyek | Selalu mengomunikasikan terkait hal atau tanggung jawab anggota kepada anggota yang lain untuk saling membantu menyelesaikan tanggung jawab tersebut agar sesuai dengan waktu yang direncanakan |
+| Menghabiskan waktu yang cukup banyak pada bagian backend dengan kemampuan anggota yang terbatas | Menjadi sebuah ancaman apabila nanti mendapatkan problem yang membutuhkan wkatu cukup lama dan mengakibatkan penghambatan pengerjaan proyek | Memulai lebih awal pada bagian backend dan meminta pertolongan dari advisor atas masukan dan tahapan yang harus dilakukan agar pengerjaan sesuai dengan waktu yang direncanakan |
+| Terdapat masalah teknis baik berupa device individu yang terkendala dan juga keperluan pendukung | Menjadi sebuah ancaman apabila nantinya bersangkutan dengan kelancaran pengerjaan proyek dan dapat membahayakan keamanan file yang dikerjakan | Meminimalisir atau mencegah terjadinya permasalahan teknis dengan menggunakan beberapa tools yang dapat menyimpan history pengerjaan salah satunya rutin melakukan push ke github |
+| Terdapat hal yang rentan masalah terkait kebijakan kepemilikan atau hak paten  | Menjadi sebuah ancaman apabila hal ini ketika website di deploy yang dimana mengambil hak paten substansi lain | Mempelajari dan meminimalisir adanya hak paten baik konten ataupun aset publik dengan melakukan parafrase ataupun upaya lainnya sesuai standar yang ada |
+
 
 ## User Flowchart :
+  <a href="#"><img src="./assets/image/nav-logo.svg" alt="icon" border="0"></a>
 
-  <img src="https://i.ibb.co/Pj0j8kW/Blank-diagram-1.png" alt="Blank-diagram-1" border="0">
+  `FIle Tutorial & FLowchart`([https://github.com/0xfaqih/plants-api/blob/main/README.md](https://drive.google.com/file/d/1RPbjVD9x6Lg-YQjZUxY3y1Dal6nsTNiA/view?usp=sharing) 
 
 ## Presented By :
 
