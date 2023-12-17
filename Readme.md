@@ -1,6 +1,6 @@
 <div align="center">
   
-  <a href="#"><img src="./assets/image/nav-logo.svg" alt="icon" border="0"></a>
+  <a href="https://www.greenhaven.my.id/"><img src="./assets/image/nav-logo.svg" alt="icon" border="0"></a>
   
 # GREEN HAVEN
 Capstone Project SIB Cycle 5 - Dicoding 2023
@@ -33,7 +33,7 @@ Education on Urban Planting | Home Preference Survey | User-Friendly and Accessi
 
 | Presentasi                                         | Demo                                       |
 | -------------------------------------------------- | ------------------------------------------ |
-| [Presentation Video](https://www.youtube.com/watch?v=RG6gJSpuZ7k) | [Demo Video](https://youtu.be/QguTzavEbrw) |
+| [Presentation Video](https://www.youtube.com/watch?v=RG6gJSpuZ7k) | [Demo Video](https://www.youtube.com/watch?v=Xou5eCGJJ_s) |
 
 ### Team ID : `C523-PS025`
 
