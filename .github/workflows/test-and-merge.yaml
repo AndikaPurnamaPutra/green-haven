@@ -1,0 +1,41 @@
+name: Test and Merge
+
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: npm ci && npx playwright install --with-deps
+
+      - name: Run Tests
+        run: npm run test:e2e
+        env:
+          BASE_URL: https://green-haven-git-staging-andikapurnamaputra.vercel.app
+
+      - name: Check Test Status
+        run: echo "Tests exited with code $?"
+
+  merge-to-main:
+    runs-on: ubuntu-latest
+
+    needs: run-tests
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Merge staging -> main
+      uses: devmasx/merge-branch@master
+      with:
+        type: now
+        target_branch: main
+        message: Merge staging into main
+        github_token: ${{ secrets.GITHUB_TOKEN }}

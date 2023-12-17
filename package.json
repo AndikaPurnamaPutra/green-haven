@@ -3,9 +3,11 @@
     "bootstrap": "^5.3.2"
   },
   "devDependencies": {
+    "codeceptjs": "^3.5.10",
     "eslint": "^8.55.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.0"
+    "eslint-plugin-import": "^2.29.0",
+    "playwright": "^1.40.1"
   },
   "name": "green-haven",
   "version": "1.0.0",
@@ -13,7 +15,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src/scripts",
-    "lint:fix": "eslint ./src/scripts --fix"
+    "lint:fix": "eslint ./src/scripts --fix",
+    "test:e2e": "codeceptjs run --steps"
   },
   "keywords": [],
   "author": "",
