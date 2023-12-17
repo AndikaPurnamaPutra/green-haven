@@ -60,6 +60,10 @@
   color: var(--secondary-color);
 }
 
+.footer .content-top-right .nav-link:hover path {
+  fill: var(--secondary-color);
+}
+
 .footer .content-bottom .copyright {
   color: #fff;
   text-align: center;
@@ -68,6 +72,12 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.footer .subtext-menu .ic-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
 @media (max-width: 768px) {
