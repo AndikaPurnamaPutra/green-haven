@@ -23,9 +23,7 @@ fetch('https://api-article.abdulfaqih.eu.org/articles')
 
         articleListContainer.innerHTML += cardHTML;
       });
-
-      // Menginisialisasi carousel setelah menambahkan item
-      $('#article-list').carousel();
+      
     } else {
       console.error('Permintaan API gagal dengan pesan:', data.message);
     }
