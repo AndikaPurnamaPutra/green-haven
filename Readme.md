@@ -96,9 +96,9 @@ Berikut merupakan beberapa faktor yang dapat menggagalkan atau menunda pembuatan
 
 
 ## User Flowchart :
-  <a href="#"><img src="./assets/image/nav-logo.svg" alt="icon" border="0"></a>
+  <a href="#"><img src="./assets/image/flowchart%20utama.png" alt="icon" border="0"></a>
 
-  `FIle Tutorial & FLowchart`([https://github.com/0xfaqih/plants-api/blob/main/README.md](https://drive.google.com/file/d/1RPbjVD9x6Lg-YQjZUxY3y1Dal6nsTNiA/view?usp=sharing) 
+  [`FIle Tutorial & FLowchart`](https://drive.google.com/file/d/1RPbjVD9x6Lg-YQjZUxY3y1Dal6nsTNiA/view?usp=sharing)
 
 ## Presented By :
 
