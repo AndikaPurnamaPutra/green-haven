@@ -46,7 +46,6 @@ fetch(apiUrl)
       const { plants } = data.data;
 
       if (plants.length > 0) {
-
         localStorage.setItem('surveyHistory', JSON.stringify(data));
         plants.forEach((plant) => {
           const cardHTML = `
@@ -62,7 +61,6 @@ fetch(apiUrl)
           `;
           plantListContainer.innerHTML += cardHTML;
         });
-
       } else {
         surveyHeader.innerHTML = '<h2>Tidak ada rekomendasi tanaman.</h2>';
         surveyDesc.innerHTML = '<p>Maaf, berdasarkan preferensi Anda belum terdapat di database kami.</p>';

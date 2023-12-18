@@ -23,7 +23,6 @@ fetch('https://api-article.abdulfaqih.eu.org/articles')
 
         articleListContainer.innerHTML += cardHTML;
       });
-      
     } else {
       console.error('Permintaan API gagal dengan pesan:', data.message);
     }

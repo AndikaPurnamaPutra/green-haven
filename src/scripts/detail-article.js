@@ -1,12 +1,25 @@
 const urlParams = new URLSearchParams(window.location.search);
 const articleId = urlParams.get('id');
 
+function getRandomIndexes(totalIndexes, n) {
+  const indexes = [];
+  // eslint-disable-next-line no-plusplus
+  for (let i = 0; i < n; i++) {
+    let randomIndex;
+    do {
+      randomIndex = Math.floor(Math.random() * totalIndexes);
+    } while (indexes.includes(randomIndex));
+    indexes.push(randomIndex);
+  }
+  return indexes;
+}
+
 // Fetch detail artikel
 fetch(`https://api-article.abdulfaqih.eu.org/article/${articleId}`)
   .then((response) => response.json())
-  .then((data) => {
-    if (data.status === 'success') {
-      const articleDetail = data.data.article;
+  .then((responseData) => {
+    if (responseData.status === 'success') {
+      const articleDetail = responseData.data.article;
 
       const articleDetailElement = document.getElementById('detail-article');
       const articleRecomElement = document.getElementById('article-recom');
@@ -35,6 +48,7 @@ fetch(`https://api-article.abdulfaqih.eu.org/article/${articleId}`)
         .then((data) => {
           if (data.status === 'success') {
             const articles = data.data.article;
+            // eslint-disable-next-line no-underscore-dangle
             const relatedArticles = articles.filter((article) => article._id !== articleDetail._id);
             const randomIndexes = getRandomIndexes(relatedArticles.length, 3);
 
@@ -61,19 +75,7 @@ fetch(`https://api-article.abdulfaqih.eu.org/article/${articleId}`)
         })
         .catch((error) => console.error('Error fetching data from API:', error));
     } else {
-      console.error('API request failed with message:', data.message);
+      console.error('API request failed with message:', responseData.message);
     }
   })
   .catch((error) => console.error('Error fetching detail data from API:', error));
-
-function getRandomIndexes(totalIndexes, n) {
-  const indexes = [];
-  for (let i = 0; i < n; i++) {
-    let randomIndex;
-    do {
-      randomIndex = Math.floor(Math.random() * totalIndexes);
-    } while (indexes.includes(randomIndex));
-    indexes.push(randomIndex);
-  }
-  return indexes;
-}
