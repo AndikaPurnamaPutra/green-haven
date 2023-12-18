@@ -2,10 +2,7 @@ fetch('https://api-article.abdulfaqih.eu.org/articles')
   .then((response) => response.json())
   .then((data) => {
     if (data.status === 'success') {
-      console.log(data);
       const articles = data.data.article;
-      console.log(articles);
-
       const articleListContainer = document.getElementById('article-list');
 
       articles.forEach((article) => {
