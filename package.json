@@ -7,7 +7,8 @@
     "eslint": "^8.55.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.29.0",
-    "playwright": "^1.40.1"
+    "playwright": "^1.40.1",
+    "workbox-cli": "^7.0.0"
   },
   "name": "green-haven",
   "version": "1.0.0",
@@ -16,7 +17,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src/scripts",
     "lint:fix": "eslint ./src/scripts --fix",
-    "test:e2e": "codeceptjs run --steps"
+    "test:e2e": "codeceptjs run --steps",
+    "generate-sw": "workbox generateSW workbox-config.js"
   },
   "keywords": [],
   "author": "",
